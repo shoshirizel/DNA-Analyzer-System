@@ -38,23 +38,23 @@ CMakeFiles/code.dir/manager.cpp.o
  ../dna/InvalidDna.h
  /home/shoshi/Desktop/bootcamp/dna project/code/data.h
  /home/shoshi/Desktop/bootcamp/dna project/code/icli.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
  /home/shoshi/Desktop/bootcamp/dna project/code/manager.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/manager.h
  /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/parser.h
 CMakeFiles/code.dir/meta_data.cpp.o
  ../dna/DnaSequence.h
  ../dna/InvalidDna.h
  /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
 CMakeFiles/code.dir/parser.cpp.o
- ../data.h
  ../dna/DnaSequence.h
  ../dna/InvalidDna.h
- ../icommand.h
- ../meta_data.h
  ../usecase/load.h
- /home/shoshi/Desktop/bootcamp/dna project/code/icli.h
- /home/shoshi/Desktop/bootcamp/dna project/code/manager.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
  /home/shoshi/Desktop/bootcamp/dna project/code/parser.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/parser.h
 CMakeFiles/code.dir/usecase/load.cpp.o

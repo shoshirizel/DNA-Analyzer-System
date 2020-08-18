@@ -2,21 +2,19 @@
 // Created by shoshi on 8/18/20.
 //
 
+
 #ifndef CODE_PARSER_H
 #define CODE_PARSER_H
 
 
-#include <usecase/load.h>
-#include "manager.h"
+#include "icommand.h"
+#include "data.h"
+#include <list>
 
 class Parser
 {
 public:
-    ICommand* parser(Data* data)
-    {
-        std::cout<<"in parser\n";
-        return new Load(data);
-    }
+    static std::list<std::string> parser(std::string line);
 };
 
 

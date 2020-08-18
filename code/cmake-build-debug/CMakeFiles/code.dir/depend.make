@@ -37,23 +37,23 @@ CMakeFiles/code.dir/manager.cpp.o: ../dna/DnaSequence.h
 CMakeFiles/code.dir/manager.cpp.o: ../dna/InvalidDna.h
 CMakeFiles/code.dir/manager.cpp.o: ../data.h
 CMakeFiles/code.dir/manager.cpp.o: ../icli.h
+CMakeFiles/code.dir/manager.cpp.o: ../icommand.h
 CMakeFiles/code.dir/manager.cpp.o: ../manager.cpp
 CMakeFiles/code.dir/manager.cpp.o: ../manager.h
 CMakeFiles/code.dir/manager.cpp.o: ../meta_data.h
+CMakeFiles/code.dir/manager.cpp.o: ../parser.h
 
 CMakeFiles/code.dir/meta_data.cpp.o: ../dna/DnaSequence.h
 CMakeFiles/code.dir/meta_data.cpp.o: ../dna/InvalidDna.h
 CMakeFiles/code.dir/meta_data.cpp.o: ../meta_data.cpp
 CMakeFiles/code.dir/meta_data.cpp.o: ../meta_data.h
 
-CMakeFiles/code.dir/parser.cpp.o: ../data.h
 CMakeFiles/code.dir/parser.cpp.o: ../dna/DnaSequence.h
 CMakeFiles/code.dir/parser.cpp.o: ../dna/InvalidDna.h
+CMakeFiles/code.dir/parser.cpp.o: ../usecase/load.h
+CMakeFiles/code.dir/parser.cpp.o: ../data.h
 CMakeFiles/code.dir/parser.cpp.o: ../icommand.h
 CMakeFiles/code.dir/parser.cpp.o: ../meta_data.h
-CMakeFiles/code.dir/parser.cpp.o: ../usecase/load.h
-CMakeFiles/code.dir/parser.cpp.o: ../icli.h
-CMakeFiles/code.dir/parser.cpp.o: ../manager.h
 CMakeFiles/code.dir/parser.cpp.o: ../parser.cpp
 CMakeFiles/code.dir/parser.cpp.o: ../parser.h
 
