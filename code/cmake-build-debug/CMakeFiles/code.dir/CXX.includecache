@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../dna/DnaSequence.h
+string
+-
+iostream
+-
+cstring
+-
+fstream
+-
+vector
+-
+InvalidDna.h
+../dna/InvalidDna.h
+
+../dna/InvalidDna.h
+stdexcept
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/cli.h
+iostream
+-
+icli.h
+/home/shoshi/Desktop/bootcamp/dna project/code/icli.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/data.h
+map
+-
+meta_data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/icli.h
+string
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/main.cpp
+manager.h
+/home/shoshi/Desktop/bootcamp/dna project/code/manager.h
+cli.h
+/home/shoshi/Desktop/bootcamp/dna project/code/cli.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/manager.h
+cstddef
+-
+map
+-
+string
+-
+iostream
+-
+dna/DnaSequence.h
+-
+icli.h
+/home/shoshi/Desktop/bootcamp/dna project/code/icli.h
+data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/data.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
+dna/DnaSequence.h
+-
+
