@@ -46,6 +46,7 @@
 				<Compiler>
 					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/."/>
 					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/dna"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/usecase"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -70,6 +71,7 @@
 				<Compiler>
 					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/."/>
 					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/dna"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/usecase"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -92,6 +94,12 @@
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/cli.h">
 			<Option target="code"/>
 		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/data.cpp">
 			<Option target="code"/>
 		</Unit>
@@ -108,6 +116,12 @@
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/factory.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/factory.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/icli.cpp">
@@ -135,6 +149,12 @@
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DNAReader.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DNAReader.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/parser.cpp">

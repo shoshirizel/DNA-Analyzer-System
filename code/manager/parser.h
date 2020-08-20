@@ -7,14 +7,13 @@
 #define CODE_PARSER_H
 
 
-#include "icommand.h"
-#include "data.h"
-#include <list>
+#include "../commands/icommand.h"
+#include "../dna_data/data.h"
 
 class Parser
 {
 public:
-    static std::list<std::string> parser(std::string line);
+    static std::vector<std::string> parser(std::string line);
 };
 
 

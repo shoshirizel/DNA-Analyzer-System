@@ -12,9 +12,8 @@
 class Cli : public ICli
 {
 public:
-    /*virtual*/ std::string input(){std::cout<<"input\n";
-        return "input";}
-    /*virtual */ void output(std::string){std::cout<<"output\n";}
+    /*virtual*/ std::string input();
+    /*virtual */ void output(std::string);
 
 };
 

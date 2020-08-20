@@ -6,8 +6,8 @@
 #define CODE_SAVE_H
 
 #include <iostream>
-#include <icommand.h>
-#include <data.h>
+#include "../icommand.h"
+#include "../../dna_data/data.h"
 
 class Save: public ICommand
 {

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/shoshi/Desktop/bootcamp/dna project/code/." -I"/home/shoshi/Desktop/bootcamp/dna project/code/dna" 
+CXX_INCLUDES = -I"/home/shoshi/Desktop/bootcamp/dna project/code/." -I"/home/shoshi/Desktop/bootcamp/dna project/code/dna" -I"/home/shoshi/Desktop/bootcamp/dna project/code/usecase" 
 

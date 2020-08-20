@@ -150,6 +150,33 @@ cli.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/cli.cpp.s
 .PHONY : cli.cpp.s
 
+commands_container.o: commands_container.cpp.o
+
+.PHONY : commands_container.o
+
+# target to build an object file
+commands_container.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands_container.cpp.o
+.PHONY : commands_container.cpp.o
+
+commands_container.i: commands_container.cpp.i
+
+.PHONY : commands_container.i
+
+# target to preprocess a source file
+commands_container.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands_container.cpp.i
+.PHONY : commands_container.cpp.i
+
+commands_container.s: commands_container.cpp.s
+
+.PHONY : commands_container.s
+
+# target to generate assembly for a file
+commands_container.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands_container.cpp.s
+.PHONY : commands_container.cpp.s
+
 data.o: data.cpp.o
 
 .PHONY : data.o
@@ -230,6 +257,33 @@ dna/InvalidDna.s: dna/InvalidDna.cpp.s
 dna/InvalidDna.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna/InvalidDna.cpp.s
 .PHONY : dna/InvalidDna.cpp.s
+
+factory.o: factory.cpp.o
+
+.PHONY : factory.o
+
+# target to build an object file
+factory.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/factory.cpp.o
+.PHONY : factory.cpp.o
+
+factory.i: factory.cpp.i
+
+.PHONY : factory.i
+
+# target to preprocess a source file
+factory.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/factory.cpp.i
+.PHONY : factory.cpp.i
+
+factory.s: factory.cpp.s
+
+.PHONY : factory.s
+
+# target to generate assembly for a file
+factory.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/factory.cpp.s
+.PHONY : factory.cpp.s
 
 icli.o: icli.cpp.o
 
@@ -366,6 +420,33 @@ meta_data.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/meta_data.cpp.s
 .PHONY : meta_data.cpp.s
 
+model/read_write/DNAReader.o: model/read_write/DNAReader.cpp.o
+
+.PHONY : model/read_write/DNAReader.o
+
+# target to build an object file
+model/read_write/DNAReader.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DNAReader.cpp.o
+.PHONY : model/read_write/DNAReader.cpp.o
+
+model/read_write/DNAReader.i: model/read_write/DNAReader.cpp.i
+
+.PHONY : model/read_write/DNAReader.i
+
+# target to preprocess a source file
+model/read_write/DNAReader.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DNAReader.cpp.i
+.PHONY : model/read_write/DNAReader.cpp.i
+
+model/read_write/DNAReader.s: model/read_write/DNAReader.cpp.s
+
+.PHONY : model/read_write/DNAReader.s
+
+# target to generate assembly for a file
+model/read_write/DNAReader.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DNAReader.cpp.s
+.PHONY : model/read_write/DNAReader.cpp.s
+
 parser.o: parser.cpp.o
 
 .PHONY : parser.o
@@ -486,6 +567,9 @@ help:
 	@echo "... cli.o"
 	@echo "... cli.i"
 	@echo "... cli.s"
+	@echo "... commands_container.o"
+	@echo "... commands_container.i"
+	@echo "... commands_container.s"
 	@echo "... data.o"
 	@echo "... data.i"
 	@echo "... data.s"
@@ -495,6 +579,9 @@ help:
 	@echo "... dna/InvalidDna.o"
 	@echo "... dna/InvalidDna.i"
 	@echo "... dna/InvalidDna.s"
+	@echo "... factory.o"
+	@echo "... factory.i"
+	@echo "... factory.s"
 	@echo "... icli.o"
 	@echo "... icli.i"
 	@echo "... icli.s"
@@ -510,6 +597,9 @@ help:
 	@echo "... meta_data.o"
 	@echo "... meta_data.i"
 	@echo "... meta_data.s"
+	@echo "... model/read_write/DNAReader.o"
+	@echo "... model/read_write/DNAReader.i"
+	@echo "... model/read_write/DNAReader.s"
 	@echo "... parser.o"
 	@echo "... parser.i"
 	@echo "... parser.s"

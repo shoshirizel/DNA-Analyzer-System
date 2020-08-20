@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../data.h
+map
+-
+meta_data.h
+../meta_data.h
+
 ../dna/DnaSequence.h
 string
 -
@@ -24,13 +30,49 @@ InvalidDna.h
 stdexcept
 -
 
-../usecase/load.h
-icommand.h
+../icommand.h
+string
 -
-data.h
+vector
 -
+
+../meta_data.h
+dna/DnaSequence.h
+../dna/DnaSequence.h
+
+../model/read_write/DNAReader.h
+fstream
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/cli.h
 iostream
 -
+icli.h
+/home/shoshi/Desktop/bootcamp/dna project/code/icli.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.cpp
+commands_container.h
+/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.h
+string
+-
+usecase/load.h
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.h
+list
+-
+string
+-
+map
+-
+icommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
+data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/data.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/data.cpp
+data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/data.h
 
 /home/shoshi/Desktop/bootcamp/dna project/code/data.h
 map
@@ -38,17 +80,47 @@ map
 meta_data.h
 /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
 
+/home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
+string
+-
+iostream
+-
+cstring
+-
+fstream
+-
+vector
+-
+InvalidDna.h
+/home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
+stdexcept
+-
+
 /home/shoshi/Desktop/bootcamp/dna project/code/icli.h
 string
 -
 
 /home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
+string
+-
+vector
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/main.cpp
+manager.h
+/home/shoshi/Desktop/bootcamp/dna project/code/manager.h
+cli.h
+/home/shoshi/Desktop/bootcamp/dna project/code/cli.h
 
 /home/shoshi/Desktop/bootcamp/dna project/code/manager.cpp
 manager.h
 /home/shoshi/Desktop/bootcamp/dna project/code/manager.h
 parser.h
 /home/shoshi/Desktop/bootcamp/dna project/code/parser.h
+commands_container.h
+/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.h
 list
 -
 
@@ -62,21 +134,23 @@ string
 iostream
 -
 dna/DnaSequence.h
--
+/home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
 icli.h
 /home/shoshi/Desktop/bootcamp/dna project/code/icli.h
 data.h
 /home/shoshi/Desktop/bootcamp/dna project/code/data.h
 
+/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.cpp
+meta_data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
+
 /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
 dna/DnaSequence.h
--
+/home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
 
 /home/shoshi/Desktop/bootcamp/dna project/code/parser.cpp
 parser.h
 /home/shoshi/Desktop/bootcamp/dna project/code/parser.h
-usecase/load.h
--
 sstream
 -
 
@@ -85,6 +159,42 @@ icommand.h
 /home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
 data.h
 /home/shoshi/Desktop/bootcamp/dna project/code/data.h
-list
+
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.cpp
+model/read_write/DNAReader.h
+-
+sstream
+-
+load.h
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.h
+../icommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
+../data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/data.h
+iostream
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/new.cpp
+new.h
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/new.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/new.h
+icommand.h
+-
+data.h
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/save.cpp
+save.h
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/save.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/usecase/save.h
+iostream
+-
+icommand.h
+-
+data.h
 -
 

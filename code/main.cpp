@@ -2,8 +2,8 @@
 // Created by shoshi on 8/18/20.
 //
 
-#include "manager.h"
-#include "cli.h"
+#include "manager/manager.h"
+#include "interface/cli.h"
 
 int main()
 {

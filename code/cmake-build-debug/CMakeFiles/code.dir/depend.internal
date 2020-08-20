@@ -5,11 +5,20 @@ CMakeFiles/code.dir/cli.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/cli.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/cli.h
  /home/shoshi/Desktop/bootcamp/dna project/code/icli.h
+CMakeFiles/code.dir/commands_container.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/commands_container.cpp
+ /home/shoshi/Desktop/bootcamp/dna project/code/commands_container.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.h
 CMakeFiles/code.dir/data.cpp.o
- ../dna/DnaSequence.h
- ../dna/InvalidDna.h
  /home/shoshi/Desktop/bootcamp/dna project/code/data.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
  /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
 CMakeFiles/code.dir/dna/DnaSequence.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.cpp
@@ -18,6 +27,9 @@ CMakeFiles/code.dir/dna/DnaSequence.cpp.o
 CMakeFiles/code.dir/dna/InvalidDna.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
+CMakeFiles/code.dir/factory.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/factory.cpp
+ /home/shoshi/Desktop/bootcamp/dna project/code/factory.h
 CMakeFiles/code.dir/icli.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/icli.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/icli.h
@@ -25,18 +37,19 @@ CMakeFiles/code.dir/icommand.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/icommand.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
 CMakeFiles/code.dir/main.cpp.o
- ../dna/DnaSequence.h
- ../dna/InvalidDna.h
  /home/shoshi/Desktop/bootcamp/dna project/code/cli.h
  /home/shoshi/Desktop/bootcamp/dna project/code/data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
  /home/shoshi/Desktop/bootcamp/dna project/code/icli.h
  /home/shoshi/Desktop/bootcamp/dna project/code/main.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/manager.h
  /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
 CMakeFiles/code.dir/manager.cpp.o
- ../dna/DnaSequence.h
- ../dna/InvalidDna.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/commands_container.h
  /home/shoshi/Desktop/bootcamp/dna project/code/data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
  /home/shoshi/Desktop/bootcamp/dna project/code/icli.h
  /home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
  /home/shoshi/Desktop/bootcamp/dna project/code/manager.cpp
@@ -44,25 +57,28 @@ CMakeFiles/code.dir/manager.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
  /home/shoshi/Desktop/bootcamp/dna project/code/parser.h
 CMakeFiles/code.dir/meta_data.cpp.o
- ../dna/DnaSequence.h
- ../dna/InvalidDna.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
  /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
+CMakeFiles/code.dir/model/read_write/DNAReader.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DNAReader.cpp
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DNAReader.h
 CMakeFiles/code.dir/parser.cpp.o
- ../dna/DnaSequence.h
- ../dna/InvalidDna.h
- ../usecase/load.h
  /home/shoshi/Desktop/bootcamp/dna project/code/data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
  /home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
  /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
  /home/shoshi/Desktop/bootcamp/dna project/code/parser.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/parser.h
 CMakeFiles/code.dir/usecase/load.cpp.o
- ../data.h
- ../dna/DnaSequence.h
- ../dna/InvalidDna.h
- ../icommand.h
- ../meta_data.h
+ ../model/read_write/DNAReader.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
  /home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.h
 CMakeFiles/code.dir/usecase/new.cpp.o

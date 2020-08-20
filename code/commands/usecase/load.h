@@ -6,16 +6,19 @@
 #define CODE_LOAD_H
 
 
-#include <icommand.h>
-#include <data.h>
-#include <iostream>
+#include "../icommand.h"
+//#include "../../dna_data/data.h"
+class Data;
 
 class Load: public ICommand
 {
 public:
     Load(Data*);
-    /*virtual*/ void action(){std::cout<<"in Load\n";}
+    /*virtual*/ std::string action(std::vector<std::string>&);
     /*virtual*/ void help();
+
+private:
+    Data *m_data;
 } ;
 
 

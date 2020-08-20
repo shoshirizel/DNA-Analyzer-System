@@ -5,10 +5,19 @@ CMakeFiles/code.dir/cli.cpp.o: ../cli.cpp
 CMakeFiles/code.dir/cli.cpp.o: ../cli.h
 CMakeFiles/code.dir/cli.cpp.o: ../icli.h
 
-CMakeFiles/code.dir/data.cpp.o: ../dna/DnaSequence.h
-CMakeFiles/code.dir/data.cpp.o: ../dna/InvalidDna.h
+CMakeFiles/code.dir/commands_container.cpp.o: ../commands_container.cpp
+CMakeFiles/code.dir/commands_container.cpp.o: ../commands_container.h
+CMakeFiles/code.dir/commands_container.cpp.o: ../data.h
+CMakeFiles/code.dir/commands_container.cpp.o: ../dna/DnaSequence.h
+CMakeFiles/code.dir/commands_container.cpp.o: ../dna/InvalidDna.h
+CMakeFiles/code.dir/commands_container.cpp.o: ../icommand.h
+CMakeFiles/code.dir/commands_container.cpp.o: ../meta_data.h
+CMakeFiles/code.dir/commands_container.cpp.o: ../usecase/load.h
+
 CMakeFiles/code.dir/data.cpp.o: ../data.cpp
 CMakeFiles/code.dir/data.cpp.o: ../data.h
+CMakeFiles/code.dir/data.cpp.o: ../dna/DnaSequence.h
+CMakeFiles/code.dir/data.cpp.o: ../dna/InvalidDna.h
 CMakeFiles/code.dir/data.cpp.o: ../meta_data.h
 
 CMakeFiles/code.dir/dna/DnaSequence.cpp.o: ../dna/DnaSequence.cpp
@@ -18,24 +27,28 @@ CMakeFiles/code.dir/dna/DnaSequence.cpp.o: ../dna/InvalidDna.h
 CMakeFiles/code.dir/dna/InvalidDna.cpp.o: ../dna/InvalidDna.cpp
 CMakeFiles/code.dir/dna/InvalidDna.cpp.o: ../dna/InvalidDna.h
 
+CMakeFiles/code.dir/factory.cpp.o: ../factory.cpp
+CMakeFiles/code.dir/factory.cpp.o: ../factory.h
+
 CMakeFiles/code.dir/icli.cpp.o: ../icli.cpp
 CMakeFiles/code.dir/icli.cpp.o: ../icli.h
 
 CMakeFiles/code.dir/icommand.cpp.o: ../icommand.cpp
 CMakeFiles/code.dir/icommand.cpp.o: ../icommand.h
 
-CMakeFiles/code.dir/main.cpp.o: ../dna/DnaSequence.h
-CMakeFiles/code.dir/main.cpp.o: ../dna/InvalidDna.h
 CMakeFiles/code.dir/main.cpp.o: ../cli.h
 CMakeFiles/code.dir/main.cpp.o: ../data.h
+CMakeFiles/code.dir/main.cpp.o: ../dna/DnaSequence.h
+CMakeFiles/code.dir/main.cpp.o: ../dna/InvalidDna.h
 CMakeFiles/code.dir/main.cpp.o: ../icli.h
 CMakeFiles/code.dir/main.cpp.o: ../main.cpp
 CMakeFiles/code.dir/main.cpp.o: ../manager.h
 CMakeFiles/code.dir/main.cpp.o: ../meta_data.h
 
+CMakeFiles/code.dir/manager.cpp.o: ../commands_container.h
+CMakeFiles/code.dir/manager.cpp.o: ../data.h
 CMakeFiles/code.dir/manager.cpp.o: ../dna/DnaSequence.h
 CMakeFiles/code.dir/manager.cpp.o: ../dna/InvalidDna.h
-CMakeFiles/code.dir/manager.cpp.o: ../data.h
 CMakeFiles/code.dir/manager.cpp.o: ../icli.h
 CMakeFiles/code.dir/manager.cpp.o: ../icommand.h
 CMakeFiles/code.dir/manager.cpp.o: ../manager.cpp
@@ -48,15 +61,18 @@ CMakeFiles/code.dir/meta_data.cpp.o: ../dna/InvalidDna.h
 CMakeFiles/code.dir/meta_data.cpp.o: ../meta_data.cpp
 CMakeFiles/code.dir/meta_data.cpp.o: ../meta_data.h
 
+CMakeFiles/code.dir/model/read_write/DNAReader.cpp.o: ../model/read_write/DNAReader.cpp
+CMakeFiles/code.dir/model/read_write/DNAReader.cpp.o: ../model/read_write/DNAReader.h
+
+CMakeFiles/code.dir/parser.cpp.o: ../data.h
 CMakeFiles/code.dir/parser.cpp.o: ../dna/DnaSequence.h
 CMakeFiles/code.dir/parser.cpp.o: ../dna/InvalidDna.h
-CMakeFiles/code.dir/parser.cpp.o: ../usecase/load.h
-CMakeFiles/code.dir/parser.cpp.o: ../data.h
 CMakeFiles/code.dir/parser.cpp.o: ../icommand.h
 CMakeFiles/code.dir/parser.cpp.o: ../meta_data.h
 CMakeFiles/code.dir/parser.cpp.o: ../parser.cpp
 CMakeFiles/code.dir/parser.cpp.o: ../parser.h
 
+CMakeFiles/code.dir/usecase/load.cpp.o: ../model/read_write/DNAReader.h
 CMakeFiles/code.dir/usecase/load.cpp.o: ../data.h
 CMakeFiles/code.dir/usecase/load.cpp.o: ../dna/DnaSequence.h
 CMakeFiles/code.dir/usecase/load.cpp.o: ../dna/InvalidDna.h
