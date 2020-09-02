@@ -2,8 +2,8 @@
 // Created by shoshi on 8/18/20.
 //
 
-#ifndef CODE_ICLI_H
-#define CODE_ICLI_H
+#ifndef CODE_INPUT_OUTPUT_H
+#define CODE_INPUT_OUTPUT_H
 
 
 #include <string>
@@ -18,4 +18,4 @@ public:
 
 
 
-#endif //CODE_ICLI_H
+#endif //CODE_INPUT_OUTPUT_H

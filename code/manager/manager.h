@@ -7,7 +7,7 @@
 #include <iostream>
 
 #include "../dna/DnaSequence.h"
-#include "../interface/icli.h"
+#include "../interface/input_output.h"
 #include "../dna_data/data.h"
 
 class Manager

@@ -24,8 +24,8 @@ add_executable(code
         manager/commands_container.h
         dna_data/data.cpp
         dna_data/data.h
-        interface/icli.cpp
-        interface/icli.h
+        interface/input_output.cpp
+        interface/input_output.h
         commands/icommand.cpp
         commands/icommand.h
         main.cpp
