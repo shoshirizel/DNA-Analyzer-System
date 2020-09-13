@@ -10,7 +10,7 @@ DNAReader::DNAReader(std::string name)
     myfile.open(name.c_str());
 
     if (!myfile.is_open())
-        throw "coudnt open";
+        throw "couldnt open";
 }
 std::string  DNAReader::read()
 {

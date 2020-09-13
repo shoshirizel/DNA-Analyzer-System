@@ -5,7 +5,7 @@
 
 Manager::Manager(ICli *cli, Data *dnaData): m_cli(cli), m_dnaData(dnaData)
 {
-    CommandsContainer::init_map_command(m_dnaData);
+    CommandsContainer::initMapCommand(m_dnaData);
 }
 
 void Manager::run()

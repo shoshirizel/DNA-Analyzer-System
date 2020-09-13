@@ -15,7 +15,7 @@ class New: public ICommand
 public:
     New(Data*);
 
-    /*virtual*/ std::string action(std::vector<std::string>&);
+    /*virtual*/ std::string action(const std::vector<std::string>&);
     /*virtual*/ void help(){}
 
 private:

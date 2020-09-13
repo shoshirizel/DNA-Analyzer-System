@@ -9,11 +9,11 @@
 
 Load::Load(Data *data):m_data(data) {}
 
-std::string Load::action(std::vector<std::string>& args)
+std::string Load::action(const std::vector<std::string>& args)
 {
     DNAReader reader(args[1]);
     std::string name = m_data->getNameDnaByArgs(args);
-    m_data->NewDna(name, reader.read());
+    m_data->newDna(name, reader.read());
 
     std::stringstream ss;
     ss << "[" << m_data->getByName(name)->getId() << "] " << name <<": " << *(m_data->getByName(name)->getDna()) << "\n";

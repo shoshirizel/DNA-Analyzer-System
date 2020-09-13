@@ -34,4 +34,4 @@ add_executable(code
         dna_data/meta_data.cpp
         dna_data/meta_data.h
         manager/parser.cpp
-        manager/parser.h model/read_write/DNAReader.cpp model/read_write/DNAReader.h)
+        manager/parser.h model/read_write/DNAReader.cpp model/read_write/DNAReader.h SharedPtr.h model/read_write/DnaWriter.cpp model/read_write/DnaWriter.h)

@@ -10,11 +10,12 @@
 class CommandsContainer
 {
 public:
-	static void init_map_command(Data*);
+    ~CommandsContainer();
+	static void initMapCommand(Data*);
 	static ICommand* get_command(std::string);
 
 private:
-	static std::map<std::string,ICommand*> commands;
+	static std::map<std::string, ICommand*> commands;
 };
 
 #endif

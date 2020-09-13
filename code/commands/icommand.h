@@ -12,10 +12,11 @@
 class ICommand
 {
 public:
-    virtual ~ICommand(){}
-    virtual std::string action(std::vector<std::string>&)=0;
+    virtual ~ICommand();
+    virtual std::string action(const std::vector<std::string>&)=0;
     virtual void help()=0;
 };
 
+inline ICommand::~ICommand() {}
 
 #endif //CODE_ICOMMAND_H

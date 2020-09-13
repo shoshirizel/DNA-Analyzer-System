@@ -12,11 +12,12 @@
 class Data
 {
 public:
-    DnaMetaData* getByName(std::string name){return m_names[name];}
+    ~Data();
+    DnaMetaData* getByName(std::string name);
     DnaMetaData* getById(size_t id){return m_ids[id];}
     std::string getNameDnaByArgs(std::vector<std::string>);
     bool isSeqNameExist(std::string);
-    void NewDna(std::string name, std::string seq);
+    void newDna(std::string name, std::string seq);
     size_t getId();
     void setId();
 
@@ -34,8 +35,9 @@ inline size_t Data::getId()
 
 inline void Data::setId()
 {
-    m_id++;
+    ++m_id;
 }
 
+inline DnaMetaData * Data::getByName(std::string name) {return m_names[name];}
 
 #endif //CODE_DATA_H
