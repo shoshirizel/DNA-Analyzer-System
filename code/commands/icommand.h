@@ -14,7 +14,7 @@ class ICommand
 public:
     virtual ~ICommand();
     virtual std::string action(const std::vector<std::string>&)=0;
-    virtual void help()=0;
+    virtual std::string help()=0;
 };
 
 inline ICommand::~ICommand() {}

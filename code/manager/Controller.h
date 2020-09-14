@@ -1,5 +1,5 @@
-#ifndef CODE_MANAGER_H
-#define CODE_MANAGER_H
+#ifndef CODE_CONTROLLER_H
+#define CODE_CONTROLLER_H
 
 #include <cstddef>
 #include <map>
@@ -10,10 +10,10 @@
 #include "../interface/input_output.h"
 #include "../dna_data/data.h"
 
-class Manager
+class Controller
 {
 public:
-	Manager(ICli* cli, Data* dnaData);
+	Controller(ICli* cli, Data* dnaData);
 	void run();
 	void start(){std::cout<<"start\n";}
 	void exit(){std::cout<<"exit\n";}

@@ -3,16 +3,18 @@
 //
 
 #include <iostream>
-#include "DNAReader.h"
+#include "DnaReader.h"
+#include "../../errors/OpenFileError.h"
 
-DNAReader::DNAReader(std::string name)
+DnaReader::DnaReader(std::string name)
 {
     myfile.open(name.c_str());
 
     if (!myfile.is_open())
-        throw "couldnt open";
+        throw OpenFileError();
 }
-std::string  DNAReader::read()
+
+std::string  DnaReader::read()
 {
     myfile.seekg (0, std::ios::end);
     int length = myfile.tellg();
@@ -23,7 +25,8 @@ std::string  DNAReader::read()
     }
     return output;
 }
-DNAReader::~DNAReader()
+
+DnaReader::~DnaReader()
 {
     myfile.close();
 }

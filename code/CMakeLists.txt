@@ -4,34 +4,45 @@ project(code)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
+include_directories(commands)
+include_directories(commands/usecase)
 include_directories(dna)
-include_directories(usecase)
+include_directories(dna_data)
+include_directories(errors)
+include_directories(interface)
+include_directories(manager)
+include_directories(model/read_write)
 
 add_executable(code
-        dna/DnaSequence.cpp
-        dna/DnaSequence.h
-        dna/InvalidDna.cpp
-        dna/InvalidDna.h
-        usecase/load.cpp
-        usecase/load.h
-        usecase/new.cpp
-        usecase/new.h
-        usecase/save.cpp
-        usecase/save.h
-        interface/cli.cpp
-        interface/cli.h
-        manager/commands_container.cpp
-        manager/commands_container.h
-        dna_data/data.cpp
-        dna_data/data.h
-        interface/input_output.cpp
-        interface/input_output.h
+        commands/usecase/load.cpp
+        commands/usecase/load.h
+        commands/usecase/new.cpp
+        commands/usecase/new.h
+        commands/usecase/save.cpp
+        commands/usecase/save.h
         commands/icommand.cpp
         commands/icommand.h
-        main.cpp
-        manager/manager.cpp
-        manager/manager.h
+        dna/DnaSequence.cpp
+        dna/DnaSequence.h
+        dna_data/data.cpp
+        dna_data/data.h
         dna_data/meta_data.cpp
         dna_data/meta_data.h
+        errors/DnaException.h
+        errors/InvalidDna.h
+        interface/cli.cpp
+        interface/cli.h
+        interface/input_output.cpp
+        interface/input_output.h
+        manager/commands_container.cpp
+        manager/commands_container.h
+        manager/Controller.cpp
+        manager/Controller.h
         manager/parser.cpp
-        manager/parser.h model/read_write/DNAReader.cpp model/read_write/DNAReader.h SharedPtr.h model/read_write/DnaWriter.cpp model/read_write/DnaWriter.h)
+        manager/parser.h
+        model/read_write/DnaReader.cpp
+        model/read_write/DnaReader.h
+        model/read_write/DnaWriter.cpp
+        model/read_write/DnaWriter.h
+        main.cpp
+        SharedPtr.h errors/CommandNotFound.h errors/OpenFileError.h errors/InvalidCommand.h commands/usecase/Help.cpp commands/usecase/Help.h)

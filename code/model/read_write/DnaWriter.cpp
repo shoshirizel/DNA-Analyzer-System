@@ -3,6 +3,7 @@
 //
 
 #include "DnaWriter.h"
+#include "../../errors/OpenFileError.h"
 
 
 DNAWriter::DNAWriter(std::string name)
@@ -10,7 +11,7 @@ DNAWriter::DNAWriter(std::string name)
     name += ".rawdna";
     myfile.open(name.c_str());
     if (!myfile.is_open())
-        throw "file not found";
+        throw OpenFileError();
 }
 
 

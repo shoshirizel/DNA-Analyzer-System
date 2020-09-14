@@ -30,13 +30,15 @@ void Data::newDna(std::string name, std::string seq)
 std::string Data::getNameDnaByArgs(std::vector<std::string> args)
 {
     if(args.size() == 3)
-        return args[2];
+    {
+        return getNotExistName(args[2].erase(0, 1));
+    }
 
     else
     {
         std::stringstream str;
         str << "def_seq_" << getId();
-        return str.str();
+        return getNotExistName(str.str());
     }
 }
 
@@ -47,4 +49,18 @@ bool Data::isSeqNameExist(std::string name)
         return false;
     }
     return true;
+}
+
+std::string Data::getNotExistName(std::string s)
+{
+    size_t counter = 0;
+    std::string newName = s;
+    while (m_names.find(newName) != m_names.end())
+    {
+        std::stringstream name;
+        name << s << "_" << counter++;
+        newName = name.str();
+    }
+
+    return newName;
 }

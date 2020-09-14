@@ -12,7 +12,6 @@
 #include <fstream>
 #include <vector>
 
-#include "InvalidDna.h"
 
 enum Nucleotide: char { A = 'A', a = 'A', C = 'C', c = 'C', G = 'G', g = 'G', T = 'T', t = 'T'};
 

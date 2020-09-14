@@ -2,22 +2,35 @@
 // Created by shoshi on 8/18/20.
 //
 
-#include "../../model/read_write/DNAReader.h"
-#include "../../dna_data/data.h"
 #include <sstream>
 #include "load.h"
 
-Load::Load(Data *data):m_data(data) {}
+#include "../../model/read_write/DnaReader.h"
+#include "../../dna_data/data.h"
+#include "../../errors/InvalidCommand.h"
+
+
+
+
+Load::Load(Data *data, ICommand* creation):m_data(data), m_creation(creation) {}
 
 std::string Load::action(const std::vector<std::string>& args)
 {
-    DNAReader reader(args[1]);
-    std::string name = m_data->getNameDnaByArgs(args);
-    m_data->newDna(name, reader.read());
+    if (args.size() < 2 || args.size() > 3 || (args.size() == 3 && args[2][0] != '@'))
+    {
+        throw InvalidCommand();
+    }
 
-    std::stringstream ss;
-    ss << "[" << m_data->getByName(name)->getId() << "] " << name <<": " << *(m_data->getByName(name)->getDna()) << "\n";
-    return ss.str();
+    DnaReader reader(args[1]);
+    std::vector<std::string> newVec = args;
+    newVec[1] = reader.read();
+
+    return m_creation->action(newVec);
 }
 
-void Load::help(){}
+std::string Load::help()
+{
+    return "load:\n Loads the sequence from the file\n"
+           "<>: parameters []: optional parameters.\n"
+           "load <file_name>  [@<sequence_name>]";
+}

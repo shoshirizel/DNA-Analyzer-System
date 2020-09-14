@@ -16,7 +16,7 @@ public:
     New(Data*);
 
     /*virtual*/ std::string action(const std::vector<std::string>&);
-    /*virtual*/ void help(){}
+    /*virtual*/ std::string help();
 
 private:
     Data* m_data;

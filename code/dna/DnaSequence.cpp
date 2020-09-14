@@ -6,12 +6,13 @@
 #include <algorithm>
 
 #include "DnaSequence.h"
+#include "../errors/InvalidDna.h"
 
 
 Nucleotide* DnaSequence::strToDna(std::string s)
 {
     if (s.find_first_not_of("ACGTacgt") != std::string::npos)
-        throw InvalidDna("invalid dna");
+        throw InvalidDna();
     size_t len = s.length();
     Nucleotide* dna = new Nucleotide[len];
 

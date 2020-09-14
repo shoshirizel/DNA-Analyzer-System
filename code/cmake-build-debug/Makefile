@@ -123,86 +123,140 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-cli.o: cli.cpp.o
+commands/icommand.o: commands/icommand.cpp.o
 
-.PHONY : cli.o
-
-# target to build an object file
-cli.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/cli.cpp.o
-.PHONY : cli.cpp.o
-
-cli.i: cli.cpp.i
-
-.PHONY : cli.i
-
-# target to preprocess a source file
-cli.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/cli.cpp.i
-.PHONY : cli.cpp.i
-
-cli.s: cli.cpp.s
-
-.PHONY : cli.s
-
-# target to generate assembly for a file
-cli.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/cli.cpp.s
-.PHONY : cli.cpp.s
-
-commands_container.o: commands_container.cpp.o
-
-.PHONY : commands_container.o
+.PHONY : commands/icommand.o
 
 # target to build an object file
-commands_container.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands_container.cpp.o
-.PHONY : commands_container.cpp.o
+commands/icommand.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/icommand.cpp.o
+.PHONY : commands/icommand.cpp.o
 
-commands_container.i: commands_container.cpp.i
+commands/icommand.i: commands/icommand.cpp.i
 
-.PHONY : commands_container.i
+.PHONY : commands/icommand.i
 
 # target to preprocess a source file
-commands_container.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands_container.cpp.i
-.PHONY : commands_container.cpp.i
+commands/icommand.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/icommand.cpp.i
+.PHONY : commands/icommand.cpp.i
 
-commands_container.s: commands_container.cpp.s
+commands/icommand.s: commands/icommand.cpp.s
 
-.PHONY : commands_container.s
+.PHONY : commands/icommand.s
 
 # target to generate assembly for a file
-commands_container.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands_container.cpp.s
-.PHONY : commands_container.cpp.s
+commands/icommand.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/icommand.cpp.s
+.PHONY : commands/icommand.cpp.s
 
-data.o: data.cpp.o
+commands/usecase/Help.o: commands/usecase/Help.cpp.o
 
-.PHONY : data.o
+.PHONY : commands/usecase/Help.o
 
 # target to build an object file
-data.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/data.cpp.o
-.PHONY : data.cpp.o
+commands/usecase/Help.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/Help.cpp.o
+.PHONY : commands/usecase/Help.cpp.o
 
-data.i: data.cpp.i
+commands/usecase/Help.i: commands/usecase/Help.cpp.i
 
-.PHONY : data.i
+.PHONY : commands/usecase/Help.i
 
 # target to preprocess a source file
-data.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/data.cpp.i
-.PHONY : data.cpp.i
+commands/usecase/Help.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/Help.cpp.i
+.PHONY : commands/usecase/Help.cpp.i
 
-data.s: data.cpp.s
+commands/usecase/Help.s: commands/usecase/Help.cpp.s
 
-.PHONY : data.s
+.PHONY : commands/usecase/Help.s
 
 # target to generate assembly for a file
-data.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/data.cpp.s
-.PHONY : data.cpp.s
+commands/usecase/Help.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/Help.cpp.s
+.PHONY : commands/usecase/Help.cpp.s
+
+commands/usecase/load.o: commands/usecase/load.cpp.o
+
+.PHONY : commands/usecase/load.o
+
+# target to build an object file
+commands/usecase/load.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/load.cpp.o
+.PHONY : commands/usecase/load.cpp.o
+
+commands/usecase/load.i: commands/usecase/load.cpp.i
+
+.PHONY : commands/usecase/load.i
+
+# target to preprocess a source file
+commands/usecase/load.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/load.cpp.i
+.PHONY : commands/usecase/load.cpp.i
+
+commands/usecase/load.s: commands/usecase/load.cpp.s
+
+.PHONY : commands/usecase/load.s
+
+# target to generate assembly for a file
+commands/usecase/load.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/load.cpp.s
+.PHONY : commands/usecase/load.cpp.s
+
+commands/usecase/new.o: commands/usecase/new.cpp.o
+
+.PHONY : commands/usecase/new.o
+
+# target to build an object file
+commands/usecase/new.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/new.cpp.o
+.PHONY : commands/usecase/new.cpp.o
+
+commands/usecase/new.i: commands/usecase/new.cpp.i
+
+.PHONY : commands/usecase/new.i
+
+# target to preprocess a source file
+commands/usecase/new.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/new.cpp.i
+.PHONY : commands/usecase/new.cpp.i
+
+commands/usecase/new.s: commands/usecase/new.cpp.s
+
+.PHONY : commands/usecase/new.s
+
+# target to generate assembly for a file
+commands/usecase/new.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/new.cpp.s
+.PHONY : commands/usecase/new.cpp.s
+
+commands/usecase/save.o: commands/usecase/save.cpp.o
+
+.PHONY : commands/usecase/save.o
+
+# target to build an object file
+commands/usecase/save.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/save.cpp.o
+.PHONY : commands/usecase/save.cpp.o
+
+commands/usecase/save.i: commands/usecase/save.cpp.i
+
+.PHONY : commands/usecase/save.i
+
+# target to preprocess a source file
+commands/usecase/save.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/save.cpp.i
+.PHONY : commands/usecase/save.cpp.i
+
+commands/usecase/save.s: commands/usecase/save.cpp.s
+
+.PHONY : commands/usecase/save.s
+
+# target to generate assembly for a file
+commands/usecase/save.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/commands/usecase/save.cpp.s
+.PHONY : commands/usecase/save.cpp.s
 
 dna/DnaSequence.o: dna/DnaSequence.cpp.o
 
@@ -231,113 +285,113 @@ dna/DnaSequence.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna/DnaSequence.cpp.s
 .PHONY : dna/DnaSequence.cpp.s
 
-dna/InvalidDna.o: dna/InvalidDna.cpp.o
+dna_data/data.o: dna_data/data.cpp.o
 
-.PHONY : dna/InvalidDna.o
-
-# target to build an object file
-dna/InvalidDna.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna/InvalidDna.cpp.o
-.PHONY : dna/InvalidDna.cpp.o
-
-dna/InvalidDna.i: dna/InvalidDna.cpp.i
-
-.PHONY : dna/InvalidDna.i
-
-# target to preprocess a source file
-dna/InvalidDna.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna/InvalidDna.cpp.i
-.PHONY : dna/InvalidDna.cpp.i
-
-dna/InvalidDna.s: dna/InvalidDna.cpp.s
-
-.PHONY : dna/InvalidDna.s
-
-# target to generate assembly for a file
-dna/InvalidDna.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna/InvalidDna.cpp.s
-.PHONY : dna/InvalidDna.cpp.s
-
-factory.o: factory.cpp.o
-
-.PHONY : factory.o
+.PHONY : dna_data/data.o
 
 # target to build an object file
-factory.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/factory.cpp.o
-.PHONY : factory.cpp.o
+dna_data/data.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna_data/data.cpp.o
+.PHONY : dna_data/data.cpp.o
 
-factory.i: factory.cpp.i
+dna_data/data.i: dna_data/data.cpp.i
 
-.PHONY : factory.i
+.PHONY : dna_data/data.i
 
 # target to preprocess a source file
-factory.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/factory.cpp.i
-.PHONY : factory.cpp.i
+dna_data/data.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna_data/data.cpp.i
+.PHONY : dna_data/data.cpp.i
 
-factory.s: factory.cpp.s
+dna_data/data.s: dna_data/data.cpp.s
 
-.PHONY : factory.s
+.PHONY : dna_data/data.s
 
 # target to generate assembly for a file
-factory.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/factory.cpp.s
-.PHONY : factory.cpp.s
+dna_data/data.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna_data/data.cpp.s
+.PHONY : dna_data/data.cpp.s
 
-icli.o: icli.cpp.o
+dna_data/meta_data.o: dna_data/meta_data.cpp.o
 
-.PHONY : icli.o
+.PHONY : dna_data/meta_data.o
 
 # target to build an object file
-icli.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/icli.cpp.o
-.PHONY : icli.cpp.o
+dna_data/meta_data.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna_data/meta_data.cpp.o
+.PHONY : dna_data/meta_data.cpp.o
 
-icli.i: icli.cpp.i
+dna_data/meta_data.i: dna_data/meta_data.cpp.i
 
-.PHONY : icli.i
+.PHONY : dna_data/meta_data.i
 
 # target to preprocess a source file
-icli.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/icli.cpp.i
-.PHONY : icli.cpp.i
+dna_data/meta_data.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna_data/meta_data.cpp.i
+.PHONY : dna_data/meta_data.cpp.i
 
-icli.s: icli.cpp.s
+dna_data/meta_data.s: dna_data/meta_data.cpp.s
 
-.PHONY : icli.s
+.PHONY : dna_data/meta_data.s
 
 # target to generate assembly for a file
-icli.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/icli.cpp.s
-.PHONY : icli.cpp.s
+dna_data/meta_data.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/dna_data/meta_data.cpp.s
+.PHONY : dna_data/meta_data.cpp.s
 
-icommand.o: icommand.cpp.o
+interface/cli.o: interface/cli.cpp.o
 
-.PHONY : icommand.o
+.PHONY : interface/cli.o
 
 # target to build an object file
-icommand.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/icommand.cpp.o
-.PHONY : icommand.cpp.o
+interface/cli.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/interface/cli.cpp.o
+.PHONY : interface/cli.cpp.o
 
-icommand.i: icommand.cpp.i
+interface/cli.i: interface/cli.cpp.i
 
-.PHONY : icommand.i
+.PHONY : interface/cli.i
 
 # target to preprocess a source file
-icommand.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/icommand.cpp.i
-.PHONY : icommand.cpp.i
+interface/cli.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/interface/cli.cpp.i
+.PHONY : interface/cli.cpp.i
 
-icommand.s: icommand.cpp.s
+interface/cli.s: interface/cli.cpp.s
 
-.PHONY : icommand.s
+.PHONY : interface/cli.s
 
 # target to generate assembly for a file
-icommand.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/icommand.cpp.s
-.PHONY : icommand.cpp.s
+interface/cli.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/interface/cli.cpp.s
+.PHONY : interface/cli.cpp.s
+
+interface/input_output.o: interface/input_output.cpp.o
+
+.PHONY : interface/input_output.o
+
+# target to build an object file
+interface/input_output.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/interface/input_output.cpp.o
+.PHONY : interface/input_output.cpp.o
+
+interface/input_output.i: interface/input_output.cpp.i
+
+.PHONY : interface/input_output.i
+
+# target to preprocess a source file
+interface/input_output.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/interface/input_output.cpp.i
+.PHONY : interface/input_output.cpp.i
+
+interface/input_output.s: interface/input_output.cpp.s
+
+.PHONY : interface/input_output.s
+
+# target to generate assembly for a file
+interface/input_output.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/interface/input_output.cpp.s
+.PHONY : interface/input_output.cpp.s
 
 main.o: main.cpp.o
 
@@ -366,194 +420,140 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-manager.o: manager.cpp.o
+manager/commands_container.o: manager/commands_container.cpp.o
 
-.PHONY : manager.o
-
-# target to build an object file
-manager.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager.cpp.o
-.PHONY : manager.cpp.o
-
-manager.i: manager.cpp.i
-
-.PHONY : manager.i
-
-# target to preprocess a source file
-manager.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager.cpp.i
-.PHONY : manager.cpp.i
-
-manager.s: manager.cpp.s
-
-.PHONY : manager.s
-
-# target to generate assembly for a file
-manager.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager.cpp.s
-.PHONY : manager.cpp.s
-
-meta_data.o: meta_data.cpp.o
-
-.PHONY : meta_data.o
+.PHONY : manager/commands_container.o
 
 # target to build an object file
-meta_data.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/meta_data.cpp.o
-.PHONY : meta_data.cpp.o
+manager/commands_container.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/commands_container.cpp.o
+.PHONY : manager/commands_container.cpp.o
 
-meta_data.i: meta_data.cpp.i
+manager/commands_container.i: manager/commands_container.cpp.i
 
-.PHONY : meta_data.i
+.PHONY : manager/commands_container.i
 
 # target to preprocess a source file
-meta_data.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/meta_data.cpp.i
-.PHONY : meta_data.cpp.i
+manager/commands_container.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/commands_container.cpp.i
+.PHONY : manager/commands_container.cpp.i
 
-meta_data.s: meta_data.cpp.s
+manager/commands_container.s: manager/commands_container.cpp.s
 
-.PHONY : meta_data.s
+.PHONY : manager/commands_container.s
 
 # target to generate assembly for a file
-meta_data.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/meta_data.cpp.s
-.PHONY : meta_data.cpp.s
+manager/commands_container.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/commands_container.cpp.s
+.PHONY : manager/commands_container.cpp.s
 
-model/read_write/DNAReader.o: model/read_write/DNAReader.cpp.o
+manager/manager.o: manager/manager.cpp.o
 
-.PHONY : model/read_write/DNAReader.o
+.PHONY : manager/manager.o
 
 # target to build an object file
-model/read_write/DNAReader.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DNAReader.cpp.o
-.PHONY : model/read_write/DNAReader.cpp.o
+manager/manager.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/manager.cpp.o
+.PHONY : manager/manager.cpp.o
 
-model/read_write/DNAReader.i: model/read_write/DNAReader.cpp.i
+manager/manager.i: manager/manager.cpp.i
 
-.PHONY : model/read_write/DNAReader.i
+.PHONY : manager/manager.i
 
 # target to preprocess a source file
-model/read_write/DNAReader.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DNAReader.cpp.i
-.PHONY : model/read_write/DNAReader.cpp.i
+manager/manager.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/manager.cpp.i
+.PHONY : manager/manager.cpp.i
 
-model/read_write/DNAReader.s: model/read_write/DNAReader.cpp.s
+manager/manager.s: manager/manager.cpp.s
 
-.PHONY : model/read_write/DNAReader.s
+.PHONY : manager/manager.s
 
 # target to generate assembly for a file
-model/read_write/DNAReader.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DNAReader.cpp.s
-.PHONY : model/read_write/DNAReader.cpp.s
+manager/manager.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/manager.cpp.s
+.PHONY : manager/manager.cpp.s
 
-parser.o: parser.cpp.o
+manager/parser.o: manager/parser.cpp.o
 
-.PHONY : parser.o
+.PHONY : manager/parser.o
 
 # target to build an object file
-parser.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/parser.cpp.o
-.PHONY : parser.cpp.o
+manager/parser.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/parser.cpp.o
+.PHONY : manager/parser.cpp.o
 
-parser.i: parser.cpp.i
+manager/parser.i: manager/parser.cpp.i
 
-.PHONY : parser.i
+.PHONY : manager/parser.i
 
 # target to preprocess a source file
-parser.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/parser.cpp.i
-.PHONY : parser.cpp.i
+manager/parser.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/parser.cpp.i
+.PHONY : manager/parser.cpp.i
 
-parser.s: parser.cpp.s
+manager/parser.s: manager/parser.cpp.s
 
-.PHONY : parser.s
+.PHONY : manager/parser.s
 
 # target to generate assembly for a file
-parser.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/parser.cpp.s
-.PHONY : parser.cpp.s
+manager/parser.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/parser.cpp.s
+.PHONY : manager/parser.cpp.s
 
-usecase/load.o: usecase/load.cpp.o
+model/read_write/DnaReader.o: model/read_write/DnaReader.cpp.o
 
-.PHONY : usecase/load.o
+.PHONY : model/read_write/DnaReader.o
 
 # target to build an object file
-usecase/load.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/usecase/load.cpp.o
-.PHONY : usecase/load.cpp.o
+model/read_write/DnaReader.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DnaReader.cpp.o
+.PHONY : model/read_write/DnaReader.cpp.o
 
-usecase/load.i: usecase/load.cpp.i
+model/read_write/DnaReader.i: model/read_write/DnaReader.cpp.i
 
-.PHONY : usecase/load.i
+.PHONY : model/read_write/DnaReader.i
 
 # target to preprocess a source file
-usecase/load.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/usecase/load.cpp.i
-.PHONY : usecase/load.cpp.i
+model/read_write/DnaReader.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DnaReader.cpp.i
+.PHONY : model/read_write/DnaReader.cpp.i
 
-usecase/load.s: usecase/load.cpp.s
+model/read_write/DnaReader.s: model/read_write/DnaReader.cpp.s
 
-.PHONY : usecase/load.s
+.PHONY : model/read_write/DnaReader.s
 
 # target to generate assembly for a file
-usecase/load.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/usecase/load.cpp.s
-.PHONY : usecase/load.cpp.s
+model/read_write/DnaReader.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DnaReader.cpp.s
+.PHONY : model/read_write/DnaReader.cpp.s
 
-usecase/new.o: usecase/new.cpp.o
+model/read_write/DnaWriter.o: model/read_write/DnaWriter.cpp.o
 
-.PHONY : usecase/new.o
+.PHONY : model/read_write/DnaWriter.o
 
 # target to build an object file
-usecase/new.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/usecase/new.cpp.o
-.PHONY : usecase/new.cpp.o
+model/read_write/DnaWriter.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DnaWriter.cpp.o
+.PHONY : model/read_write/DnaWriter.cpp.o
 
-usecase/new.i: usecase/new.cpp.i
+model/read_write/DnaWriter.i: model/read_write/DnaWriter.cpp.i
 
-.PHONY : usecase/new.i
-
-# target to preprocess a source file
-usecase/new.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/usecase/new.cpp.i
-.PHONY : usecase/new.cpp.i
-
-usecase/new.s: usecase/new.cpp.s
-
-.PHONY : usecase/new.s
-
-# target to generate assembly for a file
-usecase/new.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/usecase/new.cpp.s
-.PHONY : usecase/new.cpp.s
-
-usecase/save.o: usecase/save.cpp.o
-
-.PHONY : usecase/save.o
-
-# target to build an object file
-usecase/save.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/usecase/save.cpp.o
-.PHONY : usecase/save.cpp.o
-
-usecase/save.i: usecase/save.cpp.i
-
-.PHONY : usecase/save.i
+.PHONY : model/read_write/DnaWriter.i
 
 # target to preprocess a source file
-usecase/save.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/usecase/save.cpp.i
-.PHONY : usecase/save.cpp.i
+model/read_write/DnaWriter.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DnaWriter.cpp.i
+.PHONY : model/read_write/DnaWriter.cpp.i
 
-usecase/save.s: usecase/save.cpp.s
+model/read_write/DnaWriter.s: model/read_write/DnaWriter.cpp.s
 
-.PHONY : usecase/save.s
+.PHONY : model/read_write/DnaWriter.s
 
 # target to generate assembly for a file
-usecase/save.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/usecase/save.cpp.s
-.PHONY : usecase/save.cpp.s
+model/read_write/DnaWriter.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/read_write/DnaWriter.cpp.s
+.PHONY : model/read_write/DnaWriter.cpp.s
 
 # Help Target
 help:
@@ -564,54 +564,54 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
-	@echo "... cli.o"
-	@echo "... cli.i"
-	@echo "... cli.s"
-	@echo "... commands_container.o"
-	@echo "... commands_container.i"
-	@echo "... commands_container.s"
-	@echo "... data.o"
-	@echo "... data.i"
-	@echo "... data.s"
+	@echo "... commands/icommand.o"
+	@echo "... commands/icommand.i"
+	@echo "... commands/icommand.s"
+	@echo "... commands/usecase/Help.o"
+	@echo "... commands/usecase/Help.i"
+	@echo "... commands/usecase/Help.s"
+	@echo "... commands/usecase/load.o"
+	@echo "... commands/usecase/load.i"
+	@echo "... commands/usecase/load.s"
+	@echo "... commands/usecase/new.o"
+	@echo "... commands/usecase/new.i"
+	@echo "... commands/usecase/new.s"
+	@echo "... commands/usecase/save.o"
+	@echo "... commands/usecase/save.i"
+	@echo "... commands/usecase/save.s"
 	@echo "... dna/DnaSequence.o"
 	@echo "... dna/DnaSequence.i"
 	@echo "... dna/DnaSequence.s"
-	@echo "... dna/InvalidDna.o"
-	@echo "... dna/InvalidDna.i"
-	@echo "... dna/InvalidDna.s"
-	@echo "... factory.o"
-	@echo "... factory.i"
-	@echo "... factory.s"
-	@echo "... icli.o"
-	@echo "... icli.i"
-	@echo "... icli.s"
-	@echo "... icommand.o"
-	@echo "... icommand.i"
-	@echo "... icommand.s"
+	@echo "... dna_data/data.o"
+	@echo "... dna_data/data.i"
+	@echo "... dna_data/data.s"
+	@echo "... dna_data/meta_data.o"
+	@echo "... dna_data/meta_data.i"
+	@echo "... dna_data/meta_data.s"
+	@echo "... interface/cli.o"
+	@echo "... interface/cli.i"
+	@echo "... interface/cli.s"
+	@echo "... interface/input_output.o"
+	@echo "... interface/input_output.i"
+	@echo "... interface/input_output.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... manager.o"
-	@echo "... manager.i"
-	@echo "... manager.s"
-	@echo "... meta_data.o"
-	@echo "... meta_data.i"
-	@echo "... meta_data.s"
-	@echo "... model/read_write/DNAReader.o"
-	@echo "... model/read_write/DNAReader.i"
-	@echo "... model/read_write/DNAReader.s"
-	@echo "... parser.o"
-	@echo "... parser.i"
-	@echo "... parser.s"
-	@echo "... usecase/load.o"
-	@echo "... usecase/load.i"
-	@echo "... usecase/load.s"
-	@echo "... usecase/new.o"
-	@echo "... usecase/new.i"
-	@echo "... usecase/new.s"
-	@echo "... usecase/save.o"
-	@echo "... usecase/save.i"
-	@echo "... usecase/save.s"
+	@echo "... manager/commands_container.o"
+	@echo "... manager/commands_container.i"
+	@echo "... manager/commands_container.s"
+	@echo "... manager/manager.o"
+	@echo "... manager/manager.i"
+	@echo "... manager/manager.s"
+	@echo "... manager/parser.o"
+	@echo "... manager/parser.i"
+	@echo "... manager/parser.s"
+	@echo "... model/read_write/DnaReader.o"
+	@echo "... model/read_write/DnaReader.i"
+	@echo "... model/read_write/DnaReader.s"
+	@echo "... model/read_write/DnaWriter.o"
+	@echo "... model/read_write/DnaWriter.i"
+	@echo "... model/read_write/DnaWriter.s"
 .PHONY : help
 
 

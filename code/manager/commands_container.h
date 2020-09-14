@@ -12,7 +12,8 @@ class CommandsContainer
 public:
     ~CommandsContainer();
 	static void initMapCommand(Data*);
-	static ICommand* get_command(std::string);
+	static ICommand* getCommand(std::string);
+	static std::string getCommandsList();
 
 private:
 	static std::map<std::string, ICommand*> commands;

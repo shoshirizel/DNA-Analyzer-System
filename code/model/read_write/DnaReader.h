@@ -9,12 +9,12 @@
 #include <fstream>
 class DNA;
 
-class DNAReader
+class DnaReader
 {
 public:
-    DNAReader(std::string name);
+    DnaReader(std::string name);
     std::string read();
-    ~DNAReader();
+    ~DnaReader();
 private:
     std::ifstream myfile;
 };

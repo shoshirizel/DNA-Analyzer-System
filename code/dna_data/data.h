@@ -22,6 +22,8 @@ public:
     void setId();
 
 private:
+    std::string getNotExistName(std::string);
+
     std::map<std::string, DnaMetaData*> m_names;
     std::map<size_t, DnaMetaData*> m_ids;
     static size_t m_id;

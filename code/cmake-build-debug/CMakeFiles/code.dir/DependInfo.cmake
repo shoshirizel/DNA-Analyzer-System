@@ -4,30 +4,36 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shoshi/Desktop/bootcamp/dna project/code/cli.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/cli.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/commands_container.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/data.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/data.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/commands/icommand.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/commands/icommand.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/Help.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/commands/usecase/Help.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/load.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/commands/usecase/load.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/new.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/commands/usecase/new.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/save.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/commands/usecase/save.cpp.o"
   "/home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/dna/DnaSequence.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/dna/InvalidDna.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/factory.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/factory.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/icli.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/icli.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/icommand.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/icommand.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/dna_data/data.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/dna_data/data.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/dna_data/meta_data.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/dna_data/meta_data.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/interface/cli.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/interface/cli.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/interface/input_output.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/interface/input_output.cpp.o"
   "/home/shoshi/Desktop/bootcamp/dna project/code/main.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/main.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/manager.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/manager.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/meta_data.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DNAReader.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/model/read_write/DNAReader.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/parser.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/parser.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/usecase/load.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/usecase/new.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/usecase/new.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/usecase/save.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/usecase/save.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/manager/commands_container.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/manager/commands_container.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/manager/manager.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/manager/manager.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/manager/parser.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/manager/parser.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DnaReader.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/model/read_write/DnaReader.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DnaWriter.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/model/read_write/DnaWriter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
+  "../commands"
+  "../commands/usecase"
   "../dna"
-  "../usecase"
+  "../dna_data"
+  "../errors"
+  "../interface"
+  "../manager"
+  "../model/read_write"
   )
 
 # Targets to which this target links.
