@@ -420,6 +420,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+manager/Controller.o: manager/Controller.cpp.o
+
+.PHONY : manager/Controller.o
+
+# target to build an object file
+manager/Controller.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/Controller.cpp.o
+.PHONY : manager/Controller.cpp.o
+
+manager/Controller.i: manager/Controller.cpp.i
+
+.PHONY : manager/Controller.i
+
+# target to preprocess a source file
+manager/Controller.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/Controller.cpp.i
+.PHONY : manager/Controller.cpp.i
+
+manager/Controller.s: manager/Controller.cpp.s
+
+.PHONY : manager/Controller.s
+
+# target to generate assembly for a file
+manager/Controller.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/Controller.cpp.s
+.PHONY : manager/Controller.cpp.s
+
 manager/commands_container.o: manager/commands_container.cpp.o
 
 .PHONY : manager/commands_container.o
@@ -446,33 +473,6 @@ manager/commands_container.s: manager/commands_container.cpp.s
 manager/commands_container.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/commands_container.cpp.s
 .PHONY : manager/commands_container.cpp.s
-
-manager/manager.o: manager/manager.cpp.o
-
-.PHONY : manager/manager.o
-
-# target to build an object file
-manager/manager.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/manager.cpp.o
-.PHONY : manager/manager.cpp.o
-
-manager/manager.i: manager/manager.cpp.i
-
-.PHONY : manager/manager.i
-
-# target to preprocess a source file
-manager/manager.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/manager.cpp.i
-.PHONY : manager/manager.cpp.i
-
-manager/manager.s: manager/manager.cpp.s
-
-.PHONY : manager/manager.s
-
-# target to generate assembly for a file
-manager/manager.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/manager/manager.cpp.s
-.PHONY : manager/manager.cpp.s
 
 manager/parser.o: manager/parser.cpp.o
 
@@ -597,12 +597,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... manager/Controller.o"
+	@echo "... manager/Controller.i"
+	@echo "... manager/Controller.s"
 	@echo "... manager/commands_container.o"
 	@echo "... manager/commands_container.i"
 	@echo "... manager/commands_container.s"
-	@echo "... manager/manager.o"
-	@echo "... manager/manager.i"
-	@echo "... manager/manager.s"
 	@echo "... manager/parser.o"
 	@echo "... manager/parser.i"
 	@echo "... manager/parser.s"

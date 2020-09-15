@@ -4,8 +4,8 @@
 #include <list>
 #include <string>
 #include <map>
-#include "../commands/icommand.h"
-#include "../dna_data/data.h"
+#include "commands/icommand.h"
+#include "../model/dna_data/data.h"
 
 class CommandsContainer
 {

@@ -1,11 +1,11 @@
 #include "commands_container.h"
 
-#include "../commands/usecase/new.h"
-#include "../commands/usecase/load.h"
-#include "../commands/usecase/save.h"
-#include "../commands/usecase/Help.h"
+#include "commands/usecase/new.h"
+#include "commands/usecase/load.h"
+#include "commands/usecase/save.h"
+#include "commands/usecase/Help.h"
 
-#include "../errors/CommandNotFound.h"
+#include "errors/CommandNotFound.h"
 
 #include <string>
 

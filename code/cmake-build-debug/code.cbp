@@ -181,16 +181,16 @@
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/main.cpp">
 			<Option target="code"/>
 		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/Controller.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/Controller.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/commands_container.cpp">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/commands_container.h">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/manager.cpp">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/manager.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/parser.cpp">

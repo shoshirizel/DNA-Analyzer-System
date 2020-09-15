@@ -3,7 +3,7 @@
 //
 
 #include "Help.h"
-#include "../../manager/commands_container.h"
+#include "../../commands_container.h"
 #include "../../errors/InvalidCommand.h"
 
 std::string Help::action(const std::vector<std::string> &vec)

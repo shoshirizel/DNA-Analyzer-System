@@ -6,9 +6,9 @@
 #include <string>
 #include <iostream>
 
-#include "../dna/DnaSequence.h"
-#include "../interface/input_output.h"
-#include "../dna_data/data.h"
+#include "../model/dna/DnaSequence.h"
+#include "../view/interface/input_output.h"
+#include "../model/dna_data/data.h"
 
 class Controller
 {

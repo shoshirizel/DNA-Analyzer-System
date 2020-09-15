@@ -1,7 +1,7 @@
 #include "Controller.h"
 #include "parser.h"
 #include "commands_container.h"
-#include "../errors/DnaException.h"
+#include "errors/DnaException.h"
 
 
 Controller::Controller(ICli *cli, Data *dnaData): m_cli(cli), m_dnaData(dnaData)

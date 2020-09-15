@@ -4,10 +4,11 @@
 
 #include <iostream>
 #include "DnaReader.h"
-#include "../../errors/OpenFileError.h"
+#include "../errors/OpenFileError.h"
 
 DnaReader::DnaReader(std::string name)
 {
+    name = "dnaFiles/" + name;
     myfile.open(name.c_str());
 
     if (!myfile.is_open())

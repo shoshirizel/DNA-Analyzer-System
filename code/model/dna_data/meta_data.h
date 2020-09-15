@@ -19,7 +19,7 @@ public:
 private:
     size_t m_id;
     std::string m_name;
-    DnaSequence* m_dna;
+    IDnaSequence* m_dna;
 
 };
 
@@ -31,6 +31,6 @@ inline size_t DnaMetaData::getId() {return m_id;}
 
 inline std::string DnaMetaData::getName() {return m_name;}
 
-inline DnaSequence * DnaMetaData::getDna() {return m_dna;}
+inline DnaSequence * DnaMetaData::getDna() {return (DnaSequence*)m_dna;}
 
 #endif //CODE_META_DATA_H

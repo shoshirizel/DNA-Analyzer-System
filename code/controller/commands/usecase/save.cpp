@@ -3,7 +3,7 @@
 //
 
 #include "save.h"
-#include "../../model/read_write/DnaWriter.h"
+#include "../../../controller/read_write/DnaWriter.h"
 #include "../../errors/InvalidCommand.h"
 
 Save::Save(Data *data) :m_data(data){}
@@ -15,7 +15,7 @@ std::string Save::action(const std::vector<std::string>& args)
         throw InvalidCommand();
     }
 
-    DnaMetaData *metaData = m_data->getByName(args[1]);
+    DnaMetaData *metaData = m_data->getMeatData(args[1]);
 
     DNAWriter writer(metaData->getName());
     writer.Write(metaData->getDna());

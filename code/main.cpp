@@ -2,8 +2,8 @@
 // Created by shoshi on 8/18/20.
 //
 
-#include "manager/Controller.h"
-#include "interface/cli.h"
+#include "controller/Controller.h"
+#include "view/interface/cli.h"
 
 int main()
 {

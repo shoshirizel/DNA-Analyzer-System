@@ -8,14 +8,18 @@
 
 #include <map>
 #include "meta_data.h"
+#include "../../controller/errors/NotFound.h"
 
 class Data
 {
 public:
     ~Data();
+
     DnaMetaData* getByName(std::string name);
-    DnaMetaData* getById(size_t id){return m_ids[id];}
+    DnaMetaData* getById(size_t id);
     std::string getNameDnaByArgs(std::vector<std::string>);
+    DnaMetaData* getMeatData(std::string);
+
     bool isSeqNameExist(std::string);
     void newDna(std::string name, std::string seq);
     size_t getId();
@@ -40,6 +44,34 @@ inline void Data::setId()
     ++m_id;
 }
 
-inline DnaMetaData * Data::getByName(std::string name) {return m_names[name];}
+inline DnaMetaData * Data::getByName(std::string name)
+{
+    if (m_names.find(name) == m_names.end())
+    {
+        throw NotFound();
+    }
+
+    return m_names[name];
+}
+
+inline DnaMetaData * Data::getById(size_t id)
+{
+    if (m_ids.find(id) == m_ids.end())
+    {
+        throw NotFound();
+    }
+
+    return m_ids[id];
+}
+
+inline DnaMetaData* Data::getMeatData(std::string args)
+{
+    std::string req_seq = args.erase(0, 1);
+
+    if ((args[0]) == '@')
+        return getByName(req_seq);
+
+    return getById(size_t(std::atoi(req_seq.c_str())));
+}
 
 #endif //CODE_DATA_H

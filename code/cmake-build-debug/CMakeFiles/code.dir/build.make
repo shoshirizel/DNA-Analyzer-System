@@ -187,18 +187,18 @@ CMakeFiles/code.dir/manager/commands_container.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/manager/commands_container.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/manager/commands_container.cpp" -o CMakeFiles/code.dir/manager/commands_container.cpp.s
 
-CMakeFiles/code.dir/manager/manager.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/manager/manager.cpp.o: ../manager/manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/code.dir/manager/manager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/manager/manager.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/manager/manager.cpp"
+CMakeFiles/code.dir/manager/Controller.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/manager/Controller.cpp.o: ../manager/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/code.dir/manager/Controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/manager/Controller.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/manager/Controller.cpp"
 
-CMakeFiles/code.dir/manager/manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/manager/manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/manager/manager.cpp" > CMakeFiles/code.dir/manager/manager.cpp.i
+CMakeFiles/code.dir/manager/Controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/manager/Controller.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/manager/Controller.cpp" > CMakeFiles/code.dir/manager/Controller.cpp.i
 
-CMakeFiles/code.dir/manager/manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/manager/manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/manager/manager.cpp" -o CMakeFiles/code.dir/manager/manager.cpp.s
+CMakeFiles/code.dir/manager/Controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/manager/Controller.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/manager/Controller.cpp" -o CMakeFiles/code.dir/manager/Controller.cpp.s
 
 CMakeFiles/code.dir/manager/parser.cpp.o: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/manager/parser.cpp.o: ../manager/parser.cpp
@@ -277,7 +277,7 @@ code_OBJECTS = \
 "CMakeFiles/code.dir/interface/cli.cpp.o" \
 "CMakeFiles/code.dir/interface/input_output.cpp.o" \
 "CMakeFiles/code.dir/manager/commands_container.cpp.o" \
-"CMakeFiles/code.dir/manager/manager.cpp.o" \
+"CMakeFiles/code.dir/manager/Controller.cpp.o" \
 "CMakeFiles/code.dir/manager/parser.cpp.o" \
 "CMakeFiles/code.dir/model/read_write/DnaReader.cpp.o" \
 "CMakeFiles/code.dir/model/read_write/DnaWriter.cpp.o" \
@@ -297,7 +297,7 @@ code: CMakeFiles/code.dir/dna_data/meta_data.cpp.o
 code: CMakeFiles/code.dir/interface/cli.cpp.o
 code: CMakeFiles/code.dir/interface/input_output.cpp.o
 code: CMakeFiles/code.dir/manager/commands_container.cpp.o
-code: CMakeFiles/code.dir/manager/manager.cpp.o
+code: CMakeFiles/code.dir/manager/Controller.cpp.o
 code: CMakeFiles/code.dir/manager/parser.cpp.o
 code: CMakeFiles/code.dir/model/read_write/DnaReader.cpp.o
 code: CMakeFiles/code.dir/model/read_write/DnaWriter.cpp.o

@@ -10,7 +10,7 @@ include_directories(dna)
 include_directories(dna_data)
 include_directories(errors)
 include_directories(interface)
-include_directories(manager)
+include_directories(controller)
 include_directories(model/read_write)
 
 add_executable(code
@@ -34,15 +34,15 @@ add_executable(code
         interface/cli.h
         interface/input_output.cpp
         interface/input_output.h
-        manager/commands_container.cpp
-        manager/commands_container.h
-        manager/Controller.cpp
-        manager/Controller.h
-        manager/parser.cpp
-        manager/parser.h
+        controller/commands_container.cpp
+        controller/commands_container.h
+        controller/Controller.cpp
+        controller/Controller.h
+        controller/parser.cpp
+        controller/parser.h
         model/read_write/DnaReader.cpp
         model/read_write/DnaReader.h
         model/read_write/DnaWriter.cpp
         model/read_write/DnaWriter.h
         main.cpp
-        SharedPtr.h errors/CommandNotFound.h errors/OpenFileError.h errors/InvalidCommand.h commands/usecase/Help.cpp commands/usecase/Help.h)
+        SharedPtr.h errors/CommandNotFound.h errors/OpenFileError.h errors/InvalidCommand.h commands/usecase/Help.cpp commands/usecase/Help.h controller/errors/NotFound.h model/dna/IDnaSequence.h model/dna/Nucleotide.h)

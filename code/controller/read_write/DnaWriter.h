@@ -7,7 +7,7 @@
 
 
 #include <fstream>
-#include "../../dna/DnaSequence.h"
+#include "../../model/dna/DnaSequence.h"
 
 
 class DNAWriter

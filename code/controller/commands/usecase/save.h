@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "../icommand.h"
-#include "../../dna_data/data.h"
+#include "../../../model/dna_data/data.h"
 
 class Save: public ICommand
 {

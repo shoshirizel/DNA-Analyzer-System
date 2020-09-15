@@ -3,10 +3,11 @@
 //
 
 #include <sstream>
-#include "load.h"
 
-#include "../../model/read_write/DnaReader.h"
-#include "../../dna_data/data.h"
+#include "load.h"
+#include "../../read_write/DnaReader.h"
+#include "../../commands_container.h"
+#include "../../../model/dna_data/data.h"
 #include "../../errors/InvalidCommand.h"
 
 

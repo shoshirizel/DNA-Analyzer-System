@@ -6,7 +6,7 @@
 #include <algorithm>
 
 #include "DnaSequence.h"
-#include "../errors/InvalidDna.h"
+#include "../../controller/errors/InvalidDna.h"
 
 
 Nucleotide* DnaSequence::strToDna(std::string s)

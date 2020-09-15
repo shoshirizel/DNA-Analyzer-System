@@ -4,7 +4,7 @@
 #include <sstream>
 
 #include "new.h"
-#include "../../dna_data/data.h"
+#include "../../../model/dna_data/data.h"
 #include "../../errors/InvalidCommand.h"
 
 
