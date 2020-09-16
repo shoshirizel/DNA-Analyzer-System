@@ -1,5 +1,5 @@
 #include "Controller.h"
-#include "parser.h"
+#include "../view/parser.h"
 #include "commands_container.h"
 #include "errors/DnaException.h"
 

@@ -7,7 +7,7 @@
 #define CODE_PARSER_H
 
 
-#include "commands/icommand.h"
+#include "../controller/commands/icommand.h"
 #include "../model/dna_data/data.h"
 
 class Parser

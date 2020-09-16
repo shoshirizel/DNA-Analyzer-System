@@ -9,6 +9,7 @@
 #include <map>
 #include "meta_data.h"
 #include "../../controller/errors/NotFound.h"
+#include "../../controller/errors/InvalidCommand.h"
 
 class Data
 {
@@ -18,7 +19,7 @@ public:
     DnaMetaData* getByName(std::string name);
     DnaMetaData* getById(size_t id);
     std::string getNameDnaByArgs(std::vector<std::string>);
-    DnaMetaData* getMeatData(std::string);
+    DnaMetaData* getMetaData(std::string);
 
     bool isSeqNameExist(std::string);
     void newDna(std::string name, std::string seq);
@@ -64,14 +65,15 @@ inline DnaMetaData * Data::getById(size_t id)
     return m_ids[id];
 }
 
-inline DnaMetaData* Data::getMeatData(std::string args)
+inline DnaMetaData* Data::getMetaData(std::string args)
 {
-    std::string req_seq = args.erase(0, 1);
-
     if ((args[0]) == '@')
-        return getByName(req_seq);
+        return getByName(args.erase(0, 1));
 
-    return getById(size_t(std::atoi(req_seq.c_str())));
+    if ((args[0]) == '#')
+        return getById(size_t(std::atoi(args.erase(0, 1).c_str())));
+
+    throw InvalidCommand();
 }
 
 #endif //CODE_DATA_H

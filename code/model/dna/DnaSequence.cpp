@@ -37,6 +37,7 @@ std::string DnaSequence::getDnaAsStr() const
 {
     std::string s = "";
     size_t l = length();
+    std::cout << "-------------------" << l << "----------";
     for (size_t i = 0; i < l; ++i)
     {
         switch (m_dna[i])
@@ -56,6 +57,9 @@ std::string DnaSequence::getDnaAsStr() const
             case T:
                 s += "T";
                 break;
+
+            default:
+                std::cout << "\n" <<"-=-=-=-=-="<< m_dna[i] <<"-=-=-=-=-="<< "\n";
         }
     }
 

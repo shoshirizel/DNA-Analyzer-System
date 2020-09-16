@@ -15,6 +15,7 @@ public:
     DnaReader(std::string name);
     std::string read();
     ~DnaReader();
+
 private:
     std::ifstream myfile;
 };

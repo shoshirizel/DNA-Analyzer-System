@@ -15,7 +15,7 @@ std::string Save::action(const std::vector<std::string>& args)
         throw InvalidCommand();
     }
 
-    DnaMetaData *metaData = m_data->getMeatData(args[1]);
+    DnaMetaData *metaData = m_data->getMetaData(args[1]);
 
     DNAWriter writer(metaData->getName());
     writer.Write(metaData->getDna());
@@ -25,7 +25,7 @@ std::string Save::action(const std::vector<std::string>& args)
 
 std::string Save::help()
 {
-    return "save:\n Saves sequence <seq> to a file\n"
+    return "save:\nSaves sequence <seq> to a file\n"
            "<>: parameters []: optional parameters.\n"
            "save <seq> [<filename>]";
 }

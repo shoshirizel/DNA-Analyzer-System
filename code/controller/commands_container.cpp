@@ -4,6 +4,7 @@
 #include "commands/usecase/load.h"
 #include "commands/usecase/save.h"
 #include "commands/usecase/Help.h"
+#include "commands/usecase/Slice.h"
 
 #include "errors/CommandNotFound.h"
 
@@ -25,6 +26,7 @@ void CommandsContainer::initMapCommand(Data* dna_data)
     commands["new"] = new New(dna_data);
 	commands["load"] = new Load(dna_data, commands["new"]);
     commands["save"] = new Save(dna_data);
+    commands["slice"] = new Slice(dna_data);
     commands["help"] = new Help();
 }
 

@@ -6,195 +6,85 @@
 
 #IncludeRegexTransform: 
 
-../data.h
-map
--
-meta_data.h
-../meta_data.h
-
-../dna/DnaSequence.h
-string
--
-iostream
--
-cstring
--
-fstream
--
-vector
--
-InvalidDna.h
-../dna/InvalidDna.h
-
-../dna/InvalidDna.h
-stdexcept
--
-
-../icommand.h
-string
--
-vector
--
-
-../meta_data.h
-dna/DnaSequence.h
-../dna/DnaSequence.h
-
-../model/read_write/DNAReader.h
-fstream
--
-
-/home/shoshi/Desktop/bootcamp/dna project/code/cli.h
-iostream
--
-icli.h
-/home/shoshi/Desktop/bootcamp/dna project/code/icli.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.cpp
-commands_container.h
-/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.h
-string
--
-usecase/load.h
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.h
-list
--
-string
--
-map
--
-icommand.h
-/home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
-data.h
-/home/shoshi/Desktop/bootcamp/dna project/code/data.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/data.cpp
-data.h
-/home/shoshi/Desktop/bootcamp/dna project/code/data.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/data.h
-map
--
-meta_data.h
-/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
-string
--
-iostream
--
-cstring
--
-fstream
--
-vector
--
-InvalidDna.h
-/home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/dna/InvalidDna.h
-stdexcept
--
-
-/home/shoshi/Desktop/bootcamp/dna project/code/icli.h
-string
--
-
-/home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
-string
--
-vector
--
-
-/home/shoshi/Desktop/bootcamp/dna project/code/main.cpp
-manager.h
-/home/shoshi/Desktop/bootcamp/dna project/code/manager.h
-cli.h
-/home/shoshi/Desktop/bootcamp/dna project/code/cli.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/manager.cpp
-manager.h
-/home/shoshi/Desktop/bootcamp/dna project/code/manager.h
-parser.h
-/home/shoshi/Desktop/bootcamp/dna project/code/parser.h
-commands_container.h
-/home/shoshi/Desktop/bootcamp/dna project/code/commands_container.h
-list
--
-
-/home/shoshi/Desktop/bootcamp/dna project/code/manager.h
+/home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
 cstddef
 -
-map
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+string
 -
+vector
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.cpp
+sstream
+-
+Slice.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.h
+../../../model/dna_data/data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+../../../model/dna/dnaDecorators/SliceDecorator.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/SliceDecorator.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.h
+../icommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+stdexcept
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
+DnaException.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h
+DnaException.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
 string
 -
 iostream
 -
-dna/DnaSequence.h
-/home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
-icli.h
-/home/shoshi/Desktop/bootcamp/dna project/code/icli.h
-data.h
-/home/shoshi/Desktop/bootcamp/dna project/code/data.h
+cstring
+-
+fstream
+-
+vector
+-
+Nucleotide.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
+IDnaSequence.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
 
-/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.cpp
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
+Nucleotide.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
+cstddef
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/SliceDecorator.h
+../IDnaSequence.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
+../../../SharedPtr.h
+/home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+map
+-
 meta_data.h
-/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
+../../controller/errors/NotFound.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h
+../../controller/errors/InvalidCommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
 
-/home/shoshi/Desktop/bootcamp/dna project/code/meta_data.h
-dna/DnaSequence.h
-/home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/parser.cpp
-parser.h
-/home/shoshi/Desktop/bootcamp/dna project/code/parser.h
-sstream
--
-
-/home/shoshi/Desktop/bootcamp/dna project/code/parser.h
-icommand.h
-/home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
-data.h
-/home/shoshi/Desktop/bootcamp/dna project/code/data.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.cpp
-model/read_write/DNAReader.h
--
-sstream
--
-load.h
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/load.h
-../icommand.h
-/home/shoshi/Desktop/bootcamp/dna project/code/icommand.h
-../data.h
-/home/shoshi/Desktop/bootcamp/dna project/code/data.h
-iostream
--
-
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/new.cpp
-new.h
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/new.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/new.h
-icommand.h
--
-data.h
--
-
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/save.cpp
-save.h
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/save.h
-
-/home/shoshi/Desktop/bootcamp/dna project/code/usecase/save.h
-iostream
--
-icommand.h
--
-data.h
--
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
+../dna/DnaSequence.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
+../../SharedPtr.h
+/home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
 

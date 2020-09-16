@@ -7,23 +7,25 @@
 
 
 #include "../dna/DnaSequence.h"
+#include "../../SharedPtr.h"
 
 class DnaMetaData
 {
 public:
-    DnaMetaData(DnaSequence* seq, std::string name, size_t id);
+    DnaMetaData(SharedPtr<IDnaSequence> seq, std::string name, size_t id);
     size_t getId();
     std::string getName();
     DnaSequence* getDna();
+    SharedPtr<IDnaSequence> getSharedDnaPtr();
+    void decoratePtr(SharedPtr<IDnaSequence>);
 
 private:
     size_t m_id;
     std::string m_name;
-    IDnaSequence* m_dna;
-
+    SharedPtr<IDnaSequence> m_dna;
 };
 
-inline DnaMetaData::DnaMetaData(DnaSequence *seq, std::string name, size_t id):
+inline DnaMetaData::DnaMetaData(SharedPtr<IDnaSequence> seq, std::string name, size_t id):
     m_id(id), m_name(name), m_dna(seq){}
 
 
@@ -31,6 +33,10 @@ inline size_t DnaMetaData::getId() {return m_id;}
 
 inline std::string DnaMetaData::getName() {return m_name;}
 
-inline DnaSequence * DnaMetaData::getDna() {return (DnaSequence*)m_dna;}
+inline DnaSequence* DnaMetaData::getDna() {return (DnaSequence*)m_dna.get();}
+
+inline void DnaMetaData::decoratePtr(SharedPtr<IDnaSequence> ptr) {m_dna = ptr;}
+
+inline SharedPtr<IDnaSequence> DnaMetaData::getSharedDnaPtr() {return m_dna;}
 
 #endif //CODE_META_DATA_H

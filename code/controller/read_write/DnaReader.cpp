@@ -8,7 +8,7 @@
 
 DnaReader::DnaReader(std::string name)
 {
-    name = "dnaFiles/" + name;
+    name = "dnaFiles/" + name + ".rawdna";
     myfile.open(name.c_str());
 
     if (!myfile.is_open())

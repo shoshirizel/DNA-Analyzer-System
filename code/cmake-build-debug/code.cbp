@@ -45,14 +45,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/."/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/commands"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/dna"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/dna_data"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/errors"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/interface"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/manager"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/view"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -76,14 +78,16 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/."/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/commands"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/dna"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/dna_data"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/errors"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/interface"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/manager"/>
-					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/view"/>
+					<Add directory="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -103,112 +107,133 @@
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/icommand.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/icommand.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/Help.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/Help.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/load.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/load.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/new.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/new.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/save.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/commands/usecase/save.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/dna/DnaSequence.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/dna_data/data.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/dna_data/data.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/dna_data/meta_data.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/dna_data/meta_data.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/errors/CommandNotFound.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/CommandNotFound.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/errors/DnaException.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/errors/InvalidCommand.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/errors/InvalidDna.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidDna.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/errors/OpenFileError.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/interface/cli.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/OpenFileError.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/interface/cli.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaReader.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/interface/input_output.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaReader.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/interface/input_output.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaWriter.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaWriter.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/main.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/Controller.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/Controller.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/commands_container.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/commands_container.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/parser.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/SliceDecorator.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/manager/parser.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/SliceDecorator.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DnaReader.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DnaReader.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DnaWriter.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/read_write/DnaWriter.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/cli.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/cli.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/parser.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/parser.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/CMakeLists.txt">

@@ -20,10 +20,10 @@ Data::~Data()
 
 void Data::newDna(std::string name, std::string seq)
 {
-    DnaSequence* dna_seq = new DnaSequence(seq);
-    DnaMetaData* new_seq = new DnaMetaData(dna_seq, name, m_id);
-    m_names[name] = new_seq;
-    m_ids[m_id] = new_seq;
+    SharedPtr<IDnaSequence> dnaSeq(new DnaSequence(seq));
+    DnaMetaData* newSeq = new DnaMetaData(dnaSeq, name, m_id);
+    m_names[name] = newSeq;
+    m_ids[m_id] = newSeq;
     setId();
 }
 
