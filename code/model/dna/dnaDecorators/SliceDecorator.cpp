@@ -10,10 +10,10 @@ SliceDecorator::SliceDecorator(SharedPtr<IDnaSequence> dnaPtr, size_t start, siz
 
 size_t SliceDecorator::length() const {return m_end - m_start;}
 
-//const Nucleotide & SliceDecorator::operator[](size_t i) const
-//{
-//    return (*m_dna)[m_start + i];
-//}
+const Nucleotide & SliceDecorator::operator[](size_t i) const
+{
+    return (*m_dna)[m_start + i];
+}
 
 Nucleotide & SliceDecorator::operator[](size_t i)
 {

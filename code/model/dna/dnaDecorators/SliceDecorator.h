@@ -13,7 +13,7 @@ class SliceDecorator: public IDnaSequence
 public:
     SliceDecorator(SharedPtr<IDnaSequence>, size_t, size_t);
     size_t length() const;
-//    const Nucleotide& operator[](size_t) const;
+    const Nucleotide& operator[](size_t) const;
     Nucleotide& operator[](size_t);
 
 private:

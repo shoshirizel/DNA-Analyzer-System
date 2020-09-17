@@ -34,7 +34,7 @@ public:
 
     DnaSequence& operator=(const std::string&);
 
-    const Nucleotide operator[](size_t) const;
+    const Nucleotide& operator[](size_t) const;
 
     Nucleotide& operator[](size_t);
 
@@ -121,7 +121,7 @@ inline Nucleotide& DnaSequence::operator[](size_t i)
     return m_dna[i];
 }
 
-inline const Nucleotide DnaSequence::operator[](size_t i) const
+inline const Nucleotide& DnaSequence::operator[](size_t i) const
 {
     if (i >= m_length)
         throw std::overflow_error("out of range.");
@@ -192,4 +192,3 @@ inline DnaSequence DnaSequence::slicing(size_t start, size_t end) const
 
 
 #endif //DNA_DNASEQUENCE_H
-
