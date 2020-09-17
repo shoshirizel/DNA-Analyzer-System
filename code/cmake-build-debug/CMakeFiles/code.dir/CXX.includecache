@@ -10,11 +10,49 @@
 cstddef
 -
 
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.cpp
+Controller.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.h
+../view/parser.h
+/home/shoshi/Desktop/bootcamp/dna project/code/view/parser.h
+commands_container.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h
+errors/DnaException.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.h
+cstddef
+-
+map
+-
+string
+-
+iostream
+-
+../model/dna/DnaSequence.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
+../view/interface/input_output.h
+/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.h
+../model/dna_data/data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+
 /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
 string
 -
 vector
 -
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.cpp
+Help.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.h
+../../commands_container.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h
+../../errors/InvalidCommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.h
+../icommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
 
 /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.cpp
 sstream
@@ -30,6 +68,88 @@ Slice.h
 ../icommand.h
 /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
 
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.cpp
+sstream
+-
+load.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.h
+../../read_write/DnaReader.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaReader.h
+../../commands_container.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h
+../../../model/dna_data/data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+../../errors/InvalidCommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.h
+../icommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.cpp
+sstream
+-
+new.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.h
+../../../model/dna_data/data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+../../errors/InvalidCommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.h
+../icommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.cpp
+save.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.h
+../../../controller/read_write/DnaWriter.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaWriter.h
+../../errors/InvalidCommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.h
+iostream
+-
+../icommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+../../../model/dna_data/data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.cpp
+commands_container.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h
+commands/usecase/new.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.h
+commands/usecase/load.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.h
+commands/usecase/save.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.h
+commands/usecase/Help.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.h
+commands/usecase/Slice.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.h
+errors/CommandNotFound.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/CommandNotFound.h
+string
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h
+list
+-
+string
+-
+map
+-
+commands/icommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+../model/dna_data/data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/CommandNotFound.h
+DnaException.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+
 /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
 stdexcept
 -
@@ -38,9 +158,47 @@ stdexcept
 DnaException.h
 /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
 
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidDna.h
+DnaException.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+
 /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h
 DnaException.h
 /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/OpenFileError.h
+DnaException.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaReader.h
+fstream
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaWriter.cpp
+DnaWriter.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaWriter.h
+../errors/OpenFileError.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/OpenFileError.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaWriter.h
+fstream
+-
+../../model/dna/DnaSequence.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/main.cpp
+controller/Controller.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.h
+view/interface/cli.h
+/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/cli.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.cpp
+algorithm
+-
+DnaSequence.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
+../../controller/errors/InvalidDna.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidDna.h
 
 /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
 string
@@ -72,6 +230,12 @@ cstddef
 ../../../SharedPtr.h
 /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
 
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.cpp
+sstream
+-
+data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+
 /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
 map
 -
@@ -82,9 +246,37 @@ meta_data.h
 ../../controller/errors/InvalidCommand.h
 /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
 
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.cpp
+meta_data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
+
 /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
 ../dna/DnaSequence.h
 /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
 ../../SharedPtr.h
 /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/cli.h
+iostream
+-
+input_output.h
+/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.h
+string
+-
+
+/home/shoshi/Desktop/bootcamp/dna project/code/view/parser.cpp
+sstream
+-
+parser.h
+/home/shoshi/Desktop/bootcamp/dna project/code/view/parser.h
+../controller/errors/InvalidCommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
+
+/home/shoshi/Desktop/bootcamp/dna project/code/view/parser.h
+../controller/commands/icommand.h
+/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+../model/dna_data/data.h
+/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
 

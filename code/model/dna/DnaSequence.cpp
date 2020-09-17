@@ -33,61 +33,53 @@ Nucleotide* DnaSequence::strToDna(std::string s)
     return dna;
 }
 
-std::string DnaSequence::getDnaAsStr() const
+char getDnaAsStr(Nucleotide n)
 {
-    std::string s = "";
-    size_t l = length();
-    std::cout << "-------------------" << l << "----------";
-    for (size_t i = 0; i < l; ++i)
+    switch (n)
     {
-        switch (m_dna[i])
-        {
-            case A:
-                s += "A";
-                break;
+        case A:
+            return 'A';
 
-            case C:
-                s += "C";
-                break;
+        case C:
+            return 'C';
 
-            case G:
-                s += "G";
-                break;
+        case G:
+            return 'G';
 
-            case T:
-                s += "T";
-                break;
-
-            default:
-                std::cout << "\n" <<"-=-=-=-=-="<< m_dna[i] <<"-=-=-=-=-="<< "\n";
-        }
+        case T:
+            return 'T';
     }
 
-    return s;
+    return 'x';
 }
 
-DnaSequence dnaFromFile(const char* filename)
-{
-    std::ifstream fin;
-    fin.open(filename);
-
-    if(fin.is_open())
-    {
-        std::string line;
-        getline(fin, line);
-        fin.close();
-        DnaSequence dna(line);
-        return dna;
-    }
-    else throw std::domain_error("We couldnt open the file.");
-
-}
+//DnaSequence dnaFromFile(const char* filename)
+//{
+//    std::ifstream fin;
+//    fin.open(filename);
+//
+//    if(fin.is_open())
+//    {
+//        std::string line;
+//        getline(fin, line);
+//        fin.close();
+//        DnaSequence dna(line);
+//        return dna;
+//    }
+//    else throw std::domain_error("We couldnt open the file.");
+//
+//}
 
 std::basic_ofstream<char> fileFromDna(const DnaSequence& d, const char* fileName)
 {
     std::ofstream myfile;
     myfile.open(fileName);
-    myfile << d.getDnaAsStr() <<"\n";
+
+    for (size_t i = 0; i < d.length(); ++i)
+    {
+        myfile << getDnaAsStr(d[i]) <<"\n";
+    }
+
     myfile.close();
 
     return myfile;

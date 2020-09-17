@@ -17,6 +17,9 @@
 #include "IDnaSequence.h"
 
 
+char getDnaAsStr(Nucleotide n);
+
+
 class DnaSequence: public IDnaSequence
 {
 public:
@@ -39,7 +42,7 @@ public:
 
     const Nucleotide* getDna() const;
 
-    std::string getDnaAsStr() const;
+//    std::string getDnaAsStr() const;
 
     inline DnaSequence slicing(size_t start, size_t end) const;
 
@@ -156,7 +159,10 @@ inline bool operator!=(const DnaSequence& d1, const DnaSequence& d2)
 
 inline std::ostream& operator<<(std::ostream& os, const DnaSequence& d)
 {
-    os << d.getDnaAsStr() << std::endl << "-------------------------------------";
+    for (size_t i = 0; i < d.length(); ++i) {
+        os << getDnaAsStr(d[i]);
+    }
+
     return os;
 }
 
@@ -168,7 +174,12 @@ inline DnaSequence DnaSequence::slicing(size_t start, size_t end) const
 {
     if(start > end || end > length())
         throw std::out_of_range("Your range is incorrect.");
-    std::string myDna = getDnaAsStr(), s = "";
+    std::string myDna, s = "";
+
+    for (size_t j = 0; j < length(); ++j)
+    {
+        myDna += getDnaAsStr(operator[](j));
+    }
 
     for (size_t i = start; i < end; ++i)
     {
