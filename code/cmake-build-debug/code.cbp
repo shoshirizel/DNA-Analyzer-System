@@ -113,13 +113,16 @@
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.cpp">
-			<Option target="code"/>
-		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/IParameters.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.cpp">

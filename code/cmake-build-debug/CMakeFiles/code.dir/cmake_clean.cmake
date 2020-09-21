@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/code.dir/controller/Controller.cpp.o"
-  "CMakeFiles/code.dir/controller/commands/icommand.cpp.o"
+  "CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o"
   "CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o"
   "CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o"
   "CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o"

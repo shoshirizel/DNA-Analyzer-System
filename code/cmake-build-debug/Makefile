@@ -150,32 +150,32 @@ controller/Controller.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/Controller.cpp.s
 .PHONY : controller/Controller.cpp.s
 
-controller/commands/icommand.o: controller/commands/icommand.cpp.o
+controller/commands/parameters/NewParams.o: controller/commands/parameters/NewParams.cpp.o
 
-.PHONY : controller/commands/icommand.o
+.PHONY : controller/commands/parameters/NewParams.o
 
 # target to build an object file
-controller/commands/icommand.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/icommand.cpp.o
-.PHONY : controller/commands/icommand.cpp.o
+controller/commands/parameters/NewParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o
+.PHONY : controller/commands/parameters/NewParams.cpp.o
 
-controller/commands/icommand.i: controller/commands/icommand.cpp.i
+controller/commands/parameters/NewParams.i: controller/commands/parameters/NewParams.cpp.i
 
-.PHONY : controller/commands/icommand.i
+.PHONY : controller/commands/parameters/NewParams.i
 
 # target to preprocess a source file
-controller/commands/icommand.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/icommand.cpp.i
-.PHONY : controller/commands/icommand.cpp.i
+controller/commands/parameters/NewParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.i
+.PHONY : controller/commands/parameters/NewParams.cpp.i
 
-controller/commands/icommand.s: controller/commands/icommand.cpp.s
+controller/commands/parameters/NewParams.s: controller/commands/parameters/NewParams.cpp.s
 
-.PHONY : controller/commands/icommand.s
+.PHONY : controller/commands/parameters/NewParams.s
 
 # target to generate assembly for a file
-controller/commands/icommand.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/icommand.cpp.s
-.PHONY : controller/commands/icommand.cpp.s
+controller/commands/parameters/NewParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.s
+.PHONY : controller/commands/parameters/NewParams.cpp.s
 
 controller/commands/usecase/Count.o: controller/commands/usecase/Count.cpp.o
 
@@ -729,9 +729,9 @@ help:
 	@echo "... controller/Controller.o"
 	@echo "... controller/Controller.i"
 	@echo "... controller/Controller.s"
-	@echo "... controller/commands/icommand.o"
-	@echo "... controller/commands/icommand.i"
-	@echo "... controller/commands/icommand.s"
+	@echo "... controller/commands/parameters/NewParams.o"
+	@echo "... controller/commands/parameters/NewParams.i"
+	@echo "... controller/commands/parameters/NewParams.s"
 	@echo "... controller/commands/usecase/Count.o"
 	@echo "... controller/commands/usecase/Count.i"
 	@echo "... controller/commands/usecase/Count.s"

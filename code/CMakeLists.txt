@@ -24,7 +24,6 @@ add_executable(code
         controller/commands/usecase/new.h
         controller/commands/usecase/save.cpp
         controller/commands/usecase/save.h
-        controller/commands/icommand.cpp
         controller/commands/icommand.h
         controller/errors/CommandNotFound.h
         controller/errors/DnaException.h
@@ -56,4 +55,4 @@ add_executable(code
         view/parser.cpp
         view/parser.h
         main.cpp
-        SharedPtr.h controller/commands/usecase/Slice.cpp controller/commands/usecase/Slice.h controller/commands/usecase/Len.cpp controller/commands/usecase/Len.h model/dna/dnaDecorators/ReplaceDecorator.cpp model/dna/dnaDecorators/ReplaceDecorator.h controller/commands/usecase/Replace.cpp controller/commands/usecase/Replace.h controller/commands/usecase/Find.cpp controller/commands/usecase/Find.h controller/commands/usecase/Count.cpp controller/commands/usecase/Count.h controller/commands/parameters/IParameters.h)
+        SharedPtr.h controller/commands/usecase/Slice.cpp controller/commands/usecase/Slice.h controller/commands/usecase/Len.cpp controller/commands/usecase/Len.h model/dna/dnaDecorators/ReplaceDecorator.cpp model/dna/dnaDecorators/ReplaceDecorator.h controller/commands/usecase/Replace.cpp controller/commands/usecase/Replace.h controller/commands/usecase/Find.cpp controller/commands/usecase/Find.h controller/commands/usecase/Count.cpp controller/commands/usecase/Count.h controller/commands/parameters/IParameters.h controller/commands/parameters/NewParams.cpp controller/commands/parameters/NewParams.h)

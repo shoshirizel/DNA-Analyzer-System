@@ -7,19 +7,15 @@
 
 
 #include "../icommand.h"
+#include "../parameters/NewParams.h"
 
 class Data;
 
 class New: public ICommand
 {
 public:
-    New(Data*);
-
-    /*virtual*/ std::string action(const std::vector<std::string>&);
+    /*virtual*/ std::string action(const NewParams&);
     /*virtual*/ std::string help();
-
-private:
-    Data* m_data;
 };
 
 

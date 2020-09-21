@@ -8,21 +8,13 @@
 #include "../../errors/InvalidCommand.h"
 
 
-New::New(Data* data) : m_data(data) {}
 
-std::string New::action(const std::vector<std::string>& args)
+std::string New::action(const NewParams& args)
 {
-    if (args.size() < 2 || args.size() > 3 || (args.size() == 3 && args[2][0] != '@'))
-    {
-        throw InvalidCommand();
-    }
-
-    std::string seq = args[1];
-    std::string name = m_data->getNameDnaByArgs(args);
-    m_data->newDna(name, seq);
+    args.m_data->newDna(args.m_name, args.m_name);
 
     std::stringstream ss;
-    ss << "[" << m_data->getByName(name)->getId() << "]  " << name << ": " << seq << std::endl;
+    ss << "[" << args.m_data->getByName(args.m_name)->getId() << "]  " << args.m_name << ": " << args.m_name << std::endl;
     return ss.str();
 }
 

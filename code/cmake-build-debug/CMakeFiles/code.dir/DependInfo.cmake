@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/controller/Controller.cpp.o"
-  "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/controller/commands/icommand.cpp.o"
+  "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o"
   "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o"
   "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o"
   "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.cpp" "/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o"

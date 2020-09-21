@@ -28,7 +28,7 @@ CommandsContainer::~CommandsContainer()
 
 void CommandsContainer::initMapCommand(Data* dna_data)
 {
-//    commands["new"] = new New(dna_data);
+    commands["new"] = std::pair<ICommand*, IParameters*>(new New, new NewParams(dna_data));
 //	commands["load"] = new Load(dna_data, commands["new"]);
 //    commands["save"] = new Save(dna_data);
 //    commands["slice"] = new Slice(dna_data);
