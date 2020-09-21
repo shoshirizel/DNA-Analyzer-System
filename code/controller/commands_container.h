@@ -4,10 +4,7 @@
 #include <list>
 #include <string>
 #include <map>
-#include <utility>
-
 #include "commands/icommand.h"
-#include "commands/parameters/IParameters.h"
 #include "../model/dna_data/data.h"
 
 class CommandsContainer
@@ -15,11 +12,11 @@ class CommandsContainer
 public:
     ~CommandsContainer();
 	static void initMapCommand(Data*);
-	static std::pair<ICommand*, IParameters*> getCommand(std::string);
+	static ICommand* getCommand(std::string);
 	static std::string getCommandsList();
 
 private:
-	static std::map<std::string, std::pair<ICommand*, IParameters*>> commands;
+	static std::map<std::string, ICommand*> commands;
 };
 
 #endif

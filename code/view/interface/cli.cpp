@@ -25,8 +25,8 @@ void Cli::run()
 
         try
         {
-            std::pair<ICommand*, IParameters*> command = CommandsContainer::getCommand(parse[0]);
-            output_ = command.first->action(parse);
+            ICommand* command = CommandsContainer::getCommand(parse[0]);
+            output_ = command->action(parse);
         }
 
         catch (DnaException& err)
