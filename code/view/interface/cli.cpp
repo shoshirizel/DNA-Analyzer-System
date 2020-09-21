@@ -3,7 +3,40 @@
 //
 
 
+#include <vector>
 #include "cli.h"
+#include "../parser.h"
+#include "../../controller/commands_container.h"
+
+void Cli::run()
+{
+    while (true)
+    {
+        std::string input_ = input();
+
+        std::vector<std::string> parse = Parser::parser(input_);
+
+        if (parse[0] == "exit")
+        {
+            break;
+        }
+
+        std::string output_;
+
+        try
+        {
+            std::pair<ICommand*, IParameters*> command = CommandsContainer::getCommand(parse[0]);
+            output_ = command.first->action(parse);
+        }
+
+        catch (DnaException& err)
+        {
+            output_ = err.what();
+        }
+
+        output(output_);
+    }
+}
 
 std::string Cli::input()
 {
@@ -12,6 +45,7 @@ std::string Cli::input()
     std::getline (std::cin, command);
     return command;
 }
+
 void Cli::output(std::string output)
 {
     std::cout << output << "\n";

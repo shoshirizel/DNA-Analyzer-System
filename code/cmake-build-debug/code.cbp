@@ -119,10 +119,37 @@
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h">
 			<Option target="code"/>
 		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/IParameters.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.cpp">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Len.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Len.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Replace.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Replace.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.cpp">
@@ -200,6 +227,12 @@
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h">
 			<Option target="code"/>
 		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/ReplaceDecorator.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/ReplaceDecorator.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/SliceDecorator.cpp">
 			<Option target="code"/>
 		</Unit>
@@ -218,16 +251,13 @@
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h">
 			<Option target="code"/>
 		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/UI.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/cli.cpp">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/cli.h">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.cpp">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/view/parser.cpp">

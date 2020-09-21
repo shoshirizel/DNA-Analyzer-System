@@ -52,9 +52,8 @@ add_executable(code
         model/dna_data/meta_data.h
         view/interface/cli.cpp
         view/interface/cli.h
-        view/interface/input_output.cpp
-        view/interface/input_output.h
+        view/interface/UI.h
         view/parser.cpp
         view/parser.h
         main.cpp
-        SharedPtr.h controller/commands/usecase/Slice.cpp controller/commands/usecase/Slice.h)
+        SharedPtr.h controller/commands/usecase/Slice.cpp controller/commands/usecase/Slice.h controller/commands/usecase/Len.cpp controller/commands/usecase/Len.h model/dna/dnaDecorators/ReplaceDecorator.cpp model/dna/dnaDecorators/ReplaceDecorator.h controller/commands/usecase/Replace.cpp controller/commands/usecase/Replace.h controller/commands/usecase/Find.cpp controller/commands/usecase/Find.h controller/commands/usecase/Count.cpp controller/commands/usecase/Count.h controller/commands/parameters/IParameters.h)

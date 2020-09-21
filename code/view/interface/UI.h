@@ -2,15 +2,16 @@
 // Created by shoshi on 8/18/20.
 //
 
-#ifndef CODE_INPUT_OUTPUT_H
-#define CODE_INPUT_OUTPUT_H
+#ifndef CODE_UI_H
+#define CODE_UI_H
 
 
 #include <string>
 
-class ICli
+class UI
 {
 public:
+    virtual void run() = 0;
     virtual std::string input() = 0;
     virtual void output(std::string) = 0;
 
@@ -18,4 +19,4 @@ public:
 
 
 
-#endif //CODE_INPUT_OUTPUT_H
+#endif //CODE_UI_H

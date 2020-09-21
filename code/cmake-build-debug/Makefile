@@ -177,6 +177,60 @@ controller/commands/icommand.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/icommand.cpp.s
 .PHONY : controller/commands/icommand.cpp.s
 
+controller/commands/usecase/Count.o: controller/commands/usecase/Count.cpp.o
+
+.PHONY : controller/commands/usecase/Count.o
+
+# target to build an object file
+controller/commands/usecase/Count.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o
+.PHONY : controller/commands/usecase/Count.cpp.o
+
+controller/commands/usecase/Count.i: controller/commands/usecase/Count.cpp.i
+
+.PHONY : controller/commands/usecase/Count.i
+
+# target to preprocess a source file
+controller/commands/usecase/Count.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.i
+.PHONY : controller/commands/usecase/Count.cpp.i
+
+controller/commands/usecase/Count.s: controller/commands/usecase/Count.cpp.s
+
+.PHONY : controller/commands/usecase/Count.s
+
+# target to generate assembly for a file
+controller/commands/usecase/Count.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.s
+.PHONY : controller/commands/usecase/Count.cpp.s
+
+controller/commands/usecase/Find.o: controller/commands/usecase/Find.cpp.o
+
+.PHONY : controller/commands/usecase/Find.o
+
+# target to build an object file
+controller/commands/usecase/Find.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o
+.PHONY : controller/commands/usecase/Find.cpp.o
+
+controller/commands/usecase/Find.i: controller/commands/usecase/Find.cpp.i
+
+.PHONY : controller/commands/usecase/Find.i
+
+# target to preprocess a source file
+controller/commands/usecase/Find.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.i
+.PHONY : controller/commands/usecase/Find.cpp.i
+
+controller/commands/usecase/Find.s: controller/commands/usecase/Find.cpp.s
+
+.PHONY : controller/commands/usecase/Find.s
+
+# target to generate assembly for a file
+controller/commands/usecase/Find.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.s
+.PHONY : controller/commands/usecase/Find.cpp.s
+
 controller/commands/usecase/Help.o: controller/commands/usecase/Help.cpp.o
 
 .PHONY : controller/commands/usecase/Help.o
@@ -203,6 +257,60 @@ controller/commands/usecase/Help.s: controller/commands/usecase/Help.cpp.s
 controller/commands/usecase/Help.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.s
 .PHONY : controller/commands/usecase/Help.cpp.s
+
+controller/commands/usecase/Len.o: controller/commands/usecase/Len.cpp.o
+
+.PHONY : controller/commands/usecase/Len.o
+
+# target to build an object file
+controller/commands/usecase/Len.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o
+.PHONY : controller/commands/usecase/Len.cpp.o
+
+controller/commands/usecase/Len.i: controller/commands/usecase/Len.cpp.i
+
+.PHONY : controller/commands/usecase/Len.i
+
+# target to preprocess a source file
+controller/commands/usecase/Len.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.i
+.PHONY : controller/commands/usecase/Len.cpp.i
+
+controller/commands/usecase/Len.s: controller/commands/usecase/Len.cpp.s
+
+.PHONY : controller/commands/usecase/Len.s
+
+# target to generate assembly for a file
+controller/commands/usecase/Len.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.s
+.PHONY : controller/commands/usecase/Len.cpp.s
+
+controller/commands/usecase/Replace.o: controller/commands/usecase/Replace.cpp.o
+
+.PHONY : controller/commands/usecase/Replace.o
+
+# target to build an object file
+controller/commands/usecase/Replace.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o
+.PHONY : controller/commands/usecase/Replace.cpp.o
+
+controller/commands/usecase/Replace.i: controller/commands/usecase/Replace.cpp.i
+
+.PHONY : controller/commands/usecase/Replace.i
+
+# target to preprocess a source file
+controller/commands/usecase/Replace.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.i
+.PHONY : controller/commands/usecase/Replace.cpp.i
+
+controller/commands/usecase/Replace.s: controller/commands/usecase/Replace.cpp.s
+
+.PHONY : controller/commands/usecase/Replace.s
+
+# target to generate assembly for a file
+controller/commands/usecase/Replace.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.s
+.PHONY : controller/commands/usecase/Replace.cpp.s
 
 controller/commands/usecase/Slice.o: controller/commands/usecase/Slice.cpp.o
 
@@ -447,6 +555,33 @@ model/dna/DnaSequence.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/dna/DnaSequence.cpp.s
 .PHONY : model/dna/DnaSequence.cpp.s
 
+model/dna/dnaDecorators/ReplaceDecorator.o: model/dna/dnaDecorators/ReplaceDecorator.cpp.o
+
+.PHONY : model/dna/dnaDecorators/ReplaceDecorator.o
+
+# target to build an object file
+model/dna/dnaDecorators/ReplaceDecorator.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o
+.PHONY : model/dna/dnaDecorators/ReplaceDecorator.cpp.o
+
+model/dna/dnaDecorators/ReplaceDecorator.i: model/dna/dnaDecorators/ReplaceDecorator.cpp.i
+
+.PHONY : model/dna/dnaDecorators/ReplaceDecorator.i
+
+# target to preprocess a source file
+model/dna/dnaDecorators/ReplaceDecorator.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.i
+.PHONY : model/dna/dnaDecorators/ReplaceDecorator.cpp.i
+
+model/dna/dnaDecorators/ReplaceDecorator.s: model/dna/dnaDecorators/ReplaceDecorator.cpp.s
+
+.PHONY : model/dna/dnaDecorators/ReplaceDecorator.s
+
+# target to generate assembly for a file
+model/dna/dnaDecorators/ReplaceDecorator.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.s
+.PHONY : model/dna/dnaDecorators/ReplaceDecorator.cpp.s
+
 model/dna/dnaDecorators/SliceDecorator.o: model/dna/dnaDecorators/SliceDecorator.cpp.o
 
 .PHONY : model/dna/dnaDecorators/SliceDecorator.o
@@ -555,33 +690,6 @@ view/interface/cli.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/view/interface/cli.cpp.s
 .PHONY : view/interface/cli.cpp.s
 
-view/interface/input_output.o: view/interface/input_output.cpp.o
-
-.PHONY : view/interface/input_output.o
-
-# target to build an object file
-view/interface/input_output.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/view/interface/input_output.cpp.o
-.PHONY : view/interface/input_output.cpp.o
-
-view/interface/input_output.i: view/interface/input_output.cpp.i
-
-.PHONY : view/interface/input_output.i
-
-# target to preprocess a source file
-view/interface/input_output.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/view/interface/input_output.cpp.i
-.PHONY : view/interface/input_output.cpp.i
-
-view/interface/input_output.s: view/interface/input_output.cpp.s
-
-.PHONY : view/interface/input_output.s
-
-# target to generate assembly for a file
-view/interface/input_output.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/view/interface/input_output.cpp.s
-.PHONY : view/interface/input_output.cpp.s
-
 view/parser.o: view/parser.cpp.o
 
 .PHONY : view/parser.o
@@ -624,9 +732,21 @@ help:
 	@echo "... controller/commands/icommand.o"
 	@echo "... controller/commands/icommand.i"
 	@echo "... controller/commands/icommand.s"
+	@echo "... controller/commands/usecase/Count.o"
+	@echo "... controller/commands/usecase/Count.i"
+	@echo "... controller/commands/usecase/Count.s"
+	@echo "... controller/commands/usecase/Find.o"
+	@echo "... controller/commands/usecase/Find.i"
+	@echo "... controller/commands/usecase/Find.s"
 	@echo "... controller/commands/usecase/Help.o"
 	@echo "... controller/commands/usecase/Help.i"
 	@echo "... controller/commands/usecase/Help.s"
+	@echo "... controller/commands/usecase/Len.o"
+	@echo "... controller/commands/usecase/Len.i"
+	@echo "... controller/commands/usecase/Len.s"
+	@echo "... controller/commands/usecase/Replace.o"
+	@echo "... controller/commands/usecase/Replace.i"
+	@echo "... controller/commands/usecase/Replace.s"
 	@echo "... controller/commands/usecase/Slice.o"
 	@echo "... controller/commands/usecase/Slice.i"
 	@echo "... controller/commands/usecase/Slice.s"
@@ -654,6 +774,9 @@ help:
 	@echo "... model/dna/DnaSequence.o"
 	@echo "... model/dna/DnaSequence.i"
 	@echo "... model/dna/DnaSequence.s"
+	@echo "... model/dna/dnaDecorators/ReplaceDecorator.o"
+	@echo "... model/dna/dnaDecorators/ReplaceDecorator.i"
+	@echo "... model/dna/dnaDecorators/ReplaceDecorator.s"
 	@echo "... model/dna/dnaDecorators/SliceDecorator.o"
 	@echo "... model/dna/dnaDecorators/SliceDecorator.i"
 	@echo "... model/dna/dnaDecorators/SliceDecorator.s"
@@ -666,9 +789,6 @@ help:
 	@echo "... view/interface/cli.o"
 	@echo "... view/interface/cli.i"
 	@echo "... view/interface/cli.s"
-	@echo "... view/interface/input_output.o"
-	@echo "... view/interface/input_output.i"
-	@echo "... view/interface/input_output.s"
 	@echo "... view/parser.o"
 	@echo "... view/parser.i"
 	@echo "... view/parser.s"

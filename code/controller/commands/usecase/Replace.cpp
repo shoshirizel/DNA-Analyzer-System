@@ -1,16 +1,17 @@
 //
-// Created by shoshi on 9/16/20.
+// Created by shoshi on 9/21/20.
 //
+
 #include <sstream>
 
-#include "Slice.h"
+#include "Replace.h"
 
 #include "../../../model/dna_data/data.h"
-#include "../../../model/dna/dnaDecorators/SliceDecorator.h"
+#include "../../../model/dna/dnaDecorators/ReplaceDecorator.h"
 
-Slice::Slice(Data *data) :m_data(data) {}
+Replace::Replace(Data *data): m_data(data) {}
 
-std::string Slice::action(const std::vector<std::string> &vec)
+std::string Replace::action(const std::vector<std::string> &vec)
 {
     if (vec.size() < 4)
     {
@@ -20,7 +21,8 @@ std::string Slice::action(const std::vector<std::string> &vec)
     if (vec.size() == 4)
     {
         DnaMetaData* metaData = m_data->getMetaData(vec[1]);
-        SharedPtr<IDnaSequence> d(new SliceDecorator(metaData->getSharedDnaPtr(), std::atoi(vec[2].c_str()), std::atoi(vec[3].c_str())));
+        IDnaSequence *r = new ReplaceDecorator(metaData->getSharedDnaPtr(), std::atoi(vec[2].c_str()), (Nucleotide) vec[3][0]);
+        SharedPtr<IDnaSequence> d(r);
         metaData->decoratePtr(d);
 
         std::stringstream ss;
@@ -36,7 +38,7 @@ std::string Slice::action(const std::vector<std::string> &vec)
     return "";
 }
 
-std::string Slice::help()
+std::string Replace::help()
 {
-    return "slice <seq> <from_ind> <to_ind> [: [@<new_seq_name>|@@]]";
+    return "replace <seq> <index> <new_letter> [: [@<new_seq_name>|@@]]";
 }

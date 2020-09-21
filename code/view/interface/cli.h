@@ -7,11 +7,13 @@
 
 
 #include <iostream>
-#include "input_output.h"
+#include "UI.h"
 
-class Cli : public ICli
+
+class Cli : public UI
 {
 public:
+    /*virtual*/ void run();
     /*virtual*/ std::string input();
     /*virtual */ void output(std::string);
 
