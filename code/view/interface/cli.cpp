@@ -6,9 +6,9 @@
 #include <vector>
 #include "cli.h"
 #include "../parser.h"
-#include "../../controller/commands_container.h"
 
-void Cli::run()
+
+void Cli::run(const CallBack& callBack)
 {
     while (true)
     {
@@ -25,8 +25,7 @@ void Cli::run()
 
         try
         {
-            ICommand* command = CommandsContainer::getCommand(parse[0]);
-            output_ = command->action(parse);
+            output_ = callBack.execute(parse);
         }
 
         catch (DnaException& err)

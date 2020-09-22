@@ -9,11 +9,13 @@
 #include <string>
 #include <vector>
 
+#include "IParameters.h"
+
 class ICommand
 {
 public:
     virtual ~ICommand();
-    virtual std::string action(const std::vector<std::string>&)=0;
+    virtual std::string action(const IParameters&)=0;
     virtual std::string help()=0;
 };
 

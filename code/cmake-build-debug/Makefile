@@ -123,6 +123,33 @@ code/fast:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
+controller/CallBack.o: controller/CallBack.cpp.o
+
+.PHONY : controller/CallBack.o
+
+# target to build an object file
+controller/CallBack.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/CallBack.cpp.o
+.PHONY : controller/CallBack.cpp.o
+
+controller/CallBack.i: controller/CallBack.cpp.i
+
+.PHONY : controller/CallBack.i
+
+# target to preprocess a source file
+controller/CallBack.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/CallBack.cpp.i
+.PHONY : controller/CallBack.cpp.i
+
+controller/CallBack.s: controller/CallBack.cpp.s
+
+.PHONY : controller/CallBack.s
+
+# target to generate assembly for a file
+controller/CallBack.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/CallBack.cpp.s
+.PHONY : controller/CallBack.cpp.s
+
 controller/Controller.o: controller/Controller.cpp.o
 
 .PHONY : controller/Controller.o
@@ -150,275 +177,572 @@ controller/Controller.cpp.s:
 	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/Controller.cpp.s
 .PHONY : controller/Controller.cpp.s
 
-controller/commands/parameters/NewParams.o: controller/commands/parameters/NewParams.cpp.o
+controller/commands/analysis/count/Count.o: controller/commands/analysis/count/Count.cpp.o
 
-.PHONY : controller/commands/parameters/NewParams.o
-
-# target to build an object file
-controller/commands/parameters/NewParams.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o
-.PHONY : controller/commands/parameters/NewParams.cpp.o
-
-controller/commands/parameters/NewParams.i: controller/commands/parameters/NewParams.cpp.i
-
-.PHONY : controller/commands/parameters/NewParams.i
-
-# target to preprocess a source file
-controller/commands/parameters/NewParams.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.i
-.PHONY : controller/commands/parameters/NewParams.cpp.i
-
-controller/commands/parameters/NewParams.s: controller/commands/parameters/NewParams.cpp.s
-
-.PHONY : controller/commands/parameters/NewParams.s
-
-# target to generate assembly for a file
-controller/commands/parameters/NewParams.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.s
-.PHONY : controller/commands/parameters/NewParams.cpp.s
-
-controller/commands/usecase/Count.o: controller/commands/usecase/Count.cpp.o
-
-.PHONY : controller/commands/usecase/Count.o
+.PHONY : controller/commands/analysis/count/Count.o
 
 # target to build an object file
-controller/commands/usecase/Count.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o
-.PHONY : controller/commands/usecase/Count.cpp.o
+controller/commands/analysis/count/Count.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.o
+.PHONY : controller/commands/analysis/count/Count.cpp.o
 
-controller/commands/usecase/Count.i: controller/commands/usecase/Count.cpp.i
+controller/commands/analysis/count/Count.i: controller/commands/analysis/count/Count.cpp.i
 
-.PHONY : controller/commands/usecase/Count.i
+.PHONY : controller/commands/analysis/count/Count.i
 
 # target to preprocess a source file
-controller/commands/usecase/Count.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.i
-.PHONY : controller/commands/usecase/Count.cpp.i
+controller/commands/analysis/count/Count.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.i
+.PHONY : controller/commands/analysis/count/Count.cpp.i
 
-controller/commands/usecase/Count.s: controller/commands/usecase/Count.cpp.s
+controller/commands/analysis/count/Count.s: controller/commands/analysis/count/Count.cpp.s
 
-.PHONY : controller/commands/usecase/Count.s
+.PHONY : controller/commands/analysis/count/Count.s
 
 # target to generate assembly for a file
-controller/commands/usecase/Count.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.s
-.PHONY : controller/commands/usecase/Count.cpp.s
+controller/commands/analysis/count/Count.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.s
+.PHONY : controller/commands/analysis/count/Count.cpp.s
 
-controller/commands/usecase/Find.o: controller/commands/usecase/Find.cpp.o
+controller/commands/analysis/count/CountParams.o: controller/commands/analysis/count/CountParams.cpp.o
 
-.PHONY : controller/commands/usecase/Find.o
+.PHONY : controller/commands/analysis/count/CountParams.o
 
 # target to build an object file
-controller/commands/usecase/Find.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o
-.PHONY : controller/commands/usecase/Find.cpp.o
+controller/commands/analysis/count/CountParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.o
+.PHONY : controller/commands/analysis/count/CountParams.cpp.o
 
-controller/commands/usecase/Find.i: controller/commands/usecase/Find.cpp.i
+controller/commands/analysis/count/CountParams.i: controller/commands/analysis/count/CountParams.cpp.i
 
-.PHONY : controller/commands/usecase/Find.i
+.PHONY : controller/commands/analysis/count/CountParams.i
 
 # target to preprocess a source file
-controller/commands/usecase/Find.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.i
-.PHONY : controller/commands/usecase/Find.cpp.i
+controller/commands/analysis/count/CountParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.i
+.PHONY : controller/commands/analysis/count/CountParams.cpp.i
 
-controller/commands/usecase/Find.s: controller/commands/usecase/Find.cpp.s
+controller/commands/analysis/count/CountParams.s: controller/commands/analysis/count/CountParams.cpp.s
 
-.PHONY : controller/commands/usecase/Find.s
+.PHONY : controller/commands/analysis/count/CountParams.s
 
 # target to generate assembly for a file
-controller/commands/usecase/Find.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.s
-.PHONY : controller/commands/usecase/Find.cpp.s
+controller/commands/analysis/count/CountParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.s
+.PHONY : controller/commands/analysis/count/CountParams.cpp.s
 
-controller/commands/usecase/Help.o: controller/commands/usecase/Help.cpp.o
+controller/commands/analysis/find/Find.o: controller/commands/analysis/find/Find.cpp.o
 
-.PHONY : controller/commands/usecase/Help.o
+.PHONY : controller/commands/analysis/find/Find.o
 
 # target to build an object file
-controller/commands/usecase/Help.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o
-.PHONY : controller/commands/usecase/Help.cpp.o
+controller/commands/analysis/find/Find.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.o
+.PHONY : controller/commands/analysis/find/Find.cpp.o
 
-controller/commands/usecase/Help.i: controller/commands/usecase/Help.cpp.i
+controller/commands/analysis/find/Find.i: controller/commands/analysis/find/Find.cpp.i
 
-.PHONY : controller/commands/usecase/Help.i
+.PHONY : controller/commands/analysis/find/Find.i
 
 # target to preprocess a source file
-controller/commands/usecase/Help.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.i
-.PHONY : controller/commands/usecase/Help.cpp.i
+controller/commands/analysis/find/Find.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.i
+.PHONY : controller/commands/analysis/find/Find.cpp.i
 
-controller/commands/usecase/Help.s: controller/commands/usecase/Help.cpp.s
+controller/commands/analysis/find/Find.s: controller/commands/analysis/find/Find.cpp.s
 
-.PHONY : controller/commands/usecase/Help.s
+.PHONY : controller/commands/analysis/find/Find.s
 
 # target to generate assembly for a file
-controller/commands/usecase/Help.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.s
-.PHONY : controller/commands/usecase/Help.cpp.s
+controller/commands/analysis/find/Find.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.s
+.PHONY : controller/commands/analysis/find/Find.cpp.s
 
-controller/commands/usecase/Len.o: controller/commands/usecase/Len.cpp.o
+controller/commands/analysis/find/FindParams.o: controller/commands/analysis/find/FindParams.cpp.o
 
-.PHONY : controller/commands/usecase/Len.o
+.PHONY : controller/commands/analysis/find/FindParams.o
 
 # target to build an object file
-controller/commands/usecase/Len.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o
-.PHONY : controller/commands/usecase/Len.cpp.o
+controller/commands/analysis/find/FindParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.o
+.PHONY : controller/commands/analysis/find/FindParams.cpp.o
 
-controller/commands/usecase/Len.i: controller/commands/usecase/Len.cpp.i
+controller/commands/analysis/find/FindParams.i: controller/commands/analysis/find/FindParams.cpp.i
 
-.PHONY : controller/commands/usecase/Len.i
+.PHONY : controller/commands/analysis/find/FindParams.i
 
 # target to preprocess a source file
-controller/commands/usecase/Len.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.i
-.PHONY : controller/commands/usecase/Len.cpp.i
+controller/commands/analysis/find/FindParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.i
+.PHONY : controller/commands/analysis/find/FindParams.cpp.i
 
-controller/commands/usecase/Len.s: controller/commands/usecase/Len.cpp.s
+controller/commands/analysis/find/FindParams.s: controller/commands/analysis/find/FindParams.cpp.s
 
-.PHONY : controller/commands/usecase/Len.s
+.PHONY : controller/commands/analysis/find/FindParams.s
 
 # target to generate assembly for a file
-controller/commands/usecase/Len.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.s
-.PHONY : controller/commands/usecase/Len.cpp.s
+controller/commands/analysis/find/FindParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.s
+.PHONY : controller/commands/analysis/find/FindParams.cpp.s
 
-controller/commands/usecase/Replace.o: controller/commands/usecase/Replace.cpp.o
+controller/commands/analysis/findAll/FindAll.o: controller/commands/analysis/findAll/FindAll.cpp.o
 
-.PHONY : controller/commands/usecase/Replace.o
+.PHONY : controller/commands/analysis/findAll/FindAll.o
 
 # target to build an object file
-controller/commands/usecase/Replace.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o
-.PHONY : controller/commands/usecase/Replace.cpp.o
+controller/commands/analysis/findAll/FindAll.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.o
+.PHONY : controller/commands/analysis/findAll/FindAll.cpp.o
 
-controller/commands/usecase/Replace.i: controller/commands/usecase/Replace.cpp.i
+controller/commands/analysis/findAll/FindAll.i: controller/commands/analysis/findAll/FindAll.cpp.i
 
-.PHONY : controller/commands/usecase/Replace.i
+.PHONY : controller/commands/analysis/findAll/FindAll.i
 
 # target to preprocess a source file
-controller/commands/usecase/Replace.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.i
-.PHONY : controller/commands/usecase/Replace.cpp.i
+controller/commands/analysis/findAll/FindAll.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.i
+.PHONY : controller/commands/analysis/findAll/FindAll.cpp.i
 
-controller/commands/usecase/Replace.s: controller/commands/usecase/Replace.cpp.s
+controller/commands/analysis/findAll/FindAll.s: controller/commands/analysis/findAll/FindAll.cpp.s
 
-.PHONY : controller/commands/usecase/Replace.s
+.PHONY : controller/commands/analysis/findAll/FindAll.s
 
 # target to generate assembly for a file
-controller/commands/usecase/Replace.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.s
-.PHONY : controller/commands/usecase/Replace.cpp.s
+controller/commands/analysis/findAll/FindAll.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.s
+.PHONY : controller/commands/analysis/findAll/FindAll.cpp.s
 
-controller/commands/usecase/Slice.o: controller/commands/usecase/Slice.cpp.o
+controller/commands/analysis/findAll/FindAllParams.o: controller/commands/analysis/findAll/FindAllParams.cpp.o
 
-.PHONY : controller/commands/usecase/Slice.o
+.PHONY : controller/commands/analysis/findAll/FindAllParams.o
 
 # target to build an object file
-controller/commands/usecase/Slice.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o
-.PHONY : controller/commands/usecase/Slice.cpp.o
+controller/commands/analysis/findAll/FindAllParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.o
+.PHONY : controller/commands/analysis/findAll/FindAllParams.cpp.o
 
-controller/commands/usecase/Slice.i: controller/commands/usecase/Slice.cpp.i
+controller/commands/analysis/findAll/FindAllParams.i: controller/commands/analysis/findAll/FindAllParams.cpp.i
 
-.PHONY : controller/commands/usecase/Slice.i
+.PHONY : controller/commands/analysis/findAll/FindAllParams.i
 
 # target to preprocess a source file
-controller/commands/usecase/Slice.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.i
-.PHONY : controller/commands/usecase/Slice.cpp.i
+controller/commands/analysis/findAll/FindAllParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.i
+.PHONY : controller/commands/analysis/findAll/FindAllParams.cpp.i
 
-controller/commands/usecase/Slice.s: controller/commands/usecase/Slice.cpp.s
+controller/commands/analysis/findAll/FindAllParams.s: controller/commands/analysis/findAll/FindAllParams.cpp.s
 
-.PHONY : controller/commands/usecase/Slice.s
+.PHONY : controller/commands/analysis/findAll/FindAllParams.s
 
 # target to generate assembly for a file
-controller/commands/usecase/Slice.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.s
-.PHONY : controller/commands/usecase/Slice.cpp.s
+controller/commands/analysis/findAll/FindAllParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.s
+.PHONY : controller/commands/analysis/findAll/FindAllParams.cpp.s
 
-controller/commands/usecase/load.o: controller/commands/usecase/load.cpp.o
+controller/commands/analysis/len/Len.o: controller/commands/analysis/len/Len.cpp.o
 
-.PHONY : controller/commands/usecase/load.o
+.PHONY : controller/commands/analysis/len/Len.o
 
 # target to build an object file
-controller/commands/usecase/load.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o
-.PHONY : controller/commands/usecase/load.cpp.o
+controller/commands/analysis/len/Len.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.o
+.PHONY : controller/commands/analysis/len/Len.cpp.o
 
-controller/commands/usecase/load.i: controller/commands/usecase/load.cpp.i
+controller/commands/analysis/len/Len.i: controller/commands/analysis/len/Len.cpp.i
 
-.PHONY : controller/commands/usecase/load.i
+.PHONY : controller/commands/analysis/len/Len.i
 
 # target to preprocess a source file
-controller/commands/usecase/load.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/load.cpp.i
-.PHONY : controller/commands/usecase/load.cpp.i
+controller/commands/analysis/len/Len.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.i
+.PHONY : controller/commands/analysis/len/Len.cpp.i
 
-controller/commands/usecase/load.s: controller/commands/usecase/load.cpp.s
+controller/commands/analysis/len/Len.s: controller/commands/analysis/len/Len.cpp.s
 
-.PHONY : controller/commands/usecase/load.s
+.PHONY : controller/commands/analysis/len/Len.s
 
 # target to generate assembly for a file
-controller/commands/usecase/load.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/load.cpp.s
-.PHONY : controller/commands/usecase/load.cpp.s
+controller/commands/analysis/len/Len.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.s
+.PHONY : controller/commands/analysis/len/Len.cpp.s
 
-controller/commands/usecase/new.o: controller/commands/usecase/new.cpp.o
+controller/commands/analysis/len/LenParams.o: controller/commands/analysis/len/LenParams.cpp.o
 
-.PHONY : controller/commands/usecase/new.o
+.PHONY : controller/commands/analysis/len/LenParams.o
 
 # target to build an object file
-controller/commands/usecase/new.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o
-.PHONY : controller/commands/usecase/new.cpp.o
+controller/commands/analysis/len/LenParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.o
+.PHONY : controller/commands/analysis/len/LenParams.cpp.o
 
-controller/commands/usecase/new.i: controller/commands/usecase/new.cpp.i
+controller/commands/analysis/len/LenParams.i: controller/commands/analysis/len/LenParams.cpp.i
 
-.PHONY : controller/commands/usecase/new.i
+.PHONY : controller/commands/analysis/len/LenParams.i
 
 # target to preprocess a source file
-controller/commands/usecase/new.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/new.cpp.i
-.PHONY : controller/commands/usecase/new.cpp.i
+controller/commands/analysis/len/LenParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.i
+.PHONY : controller/commands/analysis/len/LenParams.cpp.i
 
-controller/commands/usecase/new.s: controller/commands/usecase/new.cpp.s
+controller/commands/analysis/len/LenParams.s: controller/commands/analysis/len/LenParams.cpp.s
 
-.PHONY : controller/commands/usecase/new.s
+.PHONY : controller/commands/analysis/len/LenParams.s
 
 # target to generate assembly for a file
-controller/commands/usecase/new.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/new.cpp.s
-.PHONY : controller/commands/usecase/new.cpp.s
+controller/commands/analysis/len/LenParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.s
+.PHONY : controller/commands/analysis/len/LenParams.cpp.s
 
-controller/commands/usecase/save.o: controller/commands/usecase/save.cpp.o
+controller/commands/control/help/Help.o: controller/commands/control/help/Help.cpp.o
 
-.PHONY : controller/commands/usecase/save.o
+.PHONY : controller/commands/control/help/Help.o
 
 # target to build an object file
-controller/commands/usecase/save.cpp.o:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o
-.PHONY : controller/commands/usecase/save.cpp.o
+controller/commands/control/help/Help.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.o
+.PHONY : controller/commands/control/help/Help.cpp.o
 
-controller/commands/usecase/save.i: controller/commands/usecase/save.cpp.i
+controller/commands/control/help/Help.i: controller/commands/control/help/Help.cpp.i
 
-.PHONY : controller/commands/usecase/save.i
+.PHONY : controller/commands/control/help/Help.i
 
 # target to preprocess a source file
-controller/commands/usecase/save.cpp.i:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/save.cpp.i
-.PHONY : controller/commands/usecase/save.cpp.i
+controller/commands/control/help/Help.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.i
+.PHONY : controller/commands/control/help/Help.cpp.i
 
-controller/commands/usecase/save.s: controller/commands/usecase/save.cpp.s
+controller/commands/control/help/Help.s: controller/commands/control/help/Help.cpp.s
 
-.PHONY : controller/commands/usecase/save.s
+.PHONY : controller/commands/control/help/Help.s
 
 # target to generate assembly for a file
-controller/commands/usecase/save.cpp.s:
-	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/usecase/save.cpp.s
-.PHONY : controller/commands/usecase/save.cpp.s
+controller/commands/control/help/Help.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.s
+.PHONY : controller/commands/control/help/Help.cpp.s
+
+controller/commands/control/help/HelpParams.o: controller/commands/control/help/HelpParams.cpp.o
+
+.PHONY : controller/commands/control/help/HelpParams.o
+
+# target to build an object file
+controller/commands/control/help/HelpParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.o
+.PHONY : controller/commands/control/help/HelpParams.cpp.o
+
+controller/commands/control/help/HelpParams.i: controller/commands/control/help/HelpParams.cpp.i
+
+.PHONY : controller/commands/control/help/HelpParams.i
+
+# target to preprocess a source file
+controller/commands/control/help/HelpParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.i
+.PHONY : controller/commands/control/help/HelpParams.cpp.i
+
+controller/commands/control/help/HelpParams.s: controller/commands/control/help/HelpParams.cpp.s
+
+.PHONY : controller/commands/control/help/HelpParams.s
+
+# target to generate assembly for a file
+controller/commands/control/help/HelpParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.s
+.PHONY : controller/commands/control/help/HelpParams.cpp.s
+
+controller/commands/creation/load/LoadParams.o: controller/commands/creation/load/LoadParams.cpp.o
+
+.PHONY : controller/commands/creation/load/LoadParams.o
+
+# target to build an object file
+controller/commands/creation/load/LoadParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.o
+.PHONY : controller/commands/creation/load/LoadParams.cpp.o
+
+controller/commands/creation/load/LoadParams.i: controller/commands/creation/load/LoadParams.cpp.i
+
+.PHONY : controller/commands/creation/load/LoadParams.i
+
+# target to preprocess a source file
+controller/commands/creation/load/LoadParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.i
+.PHONY : controller/commands/creation/load/LoadParams.cpp.i
+
+controller/commands/creation/load/LoadParams.s: controller/commands/creation/load/LoadParams.cpp.s
+
+.PHONY : controller/commands/creation/load/LoadParams.s
+
+# target to generate assembly for a file
+controller/commands/creation/load/LoadParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.s
+.PHONY : controller/commands/creation/load/LoadParams.cpp.s
+
+controller/commands/creation/load/load.o: controller/commands/creation/load/load.cpp.o
+
+.PHONY : controller/commands/creation/load/load.o
+
+# target to build an object file
+controller/commands/creation/load/load.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.o
+.PHONY : controller/commands/creation/load/load.cpp.o
+
+controller/commands/creation/load/load.i: controller/commands/creation/load/load.cpp.i
+
+.PHONY : controller/commands/creation/load/load.i
+
+# target to preprocess a source file
+controller/commands/creation/load/load.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.i
+.PHONY : controller/commands/creation/load/load.cpp.i
+
+controller/commands/creation/load/load.s: controller/commands/creation/load/load.cpp.s
+
+.PHONY : controller/commands/creation/load/load.s
+
+# target to generate assembly for a file
+controller/commands/creation/load/load.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.s
+.PHONY : controller/commands/creation/load/load.cpp.s
+
+controller/commands/creation/new/NewParams.o: controller/commands/creation/new/NewParams.cpp.o
+
+.PHONY : controller/commands/creation/new/NewParams.o
+
+# target to build an object file
+controller/commands/creation/new/NewParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.o
+.PHONY : controller/commands/creation/new/NewParams.cpp.o
+
+controller/commands/creation/new/NewParams.i: controller/commands/creation/new/NewParams.cpp.i
+
+.PHONY : controller/commands/creation/new/NewParams.i
+
+# target to preprocess a source file
+controller/commands/creation/new/NewParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.i
+.PHONY : controller/commands/creation/new/NewParams.cpp.i
+
+controller/commands/creation/new/NewParams.s: controller/commands/creation/new/NewParams.cpp.s
+
+.PHONY : controller/commands/creation/new/NewParams.s
+
+# target to generate assembly for a file
+controller/commands/creation/new/NewParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.s
+.PHONY : controller/commands/creation/new/NewParams.cpp.s
+
+controller/commands/creation/new/new.o: controller/commands/creation/new/new.cpp.o
+
+.PHONY : controller/commands/creation/new/new.o
+
+# target to build an object file
+controller/commands/creation/new/new.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.o
+.PHONY : controller/commands/creation/new/new.cpp.o
+
+controller/commands/creation/new/new.i: controller/commands/creation/new/new.cpp.i
+
+.PHONY : controller/commands/creation/new/new.i
+
+# target to preprocess a source file
+controller/commands/creation/new/new.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.i
+.PHONY : controller/commands/creation/new/new.cpp.i
+
+controller/commands/creation/new/new.s: controller/commands/creation/new/new.cpp.s
+
+.PHONY : controller/commands/creation/new/new.s
+
+# target to generate assembly for a file
+controller/commands/creation/new/new.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.s
+.PHONY : controller/commands/creation/new/new.cpp.s
+
+controller/commands/management/save/SaveParams.o: controller/commands/management/save/SaveParams.cpp.o
+
+.PHONY : controller/commands/management/save/SaveParams.o
+
+# target to build an object file
+controller/commands/management/save/SaveParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.o
+.PHONY : controller/commands/management/save/SaveParams.cpp.o
+
+controller/commands/management/save/SaveParams.i: controller/commands/management/save/SaveParams.cpp.i
+
+.PHONY : controller/commands/management/save/SaveParams.i
+
+# target to preprocess a source file
+controller/commands/management/save/SaveParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.i
+.PHONY : controller/commands/management/save/SaveParams.cpp.i
+
+controller/commands/management/save/SaveParams.s: controller/commands/management/save/SaveParams.cpp.s
+
+.PHONY : controller/commands/management/save/SaveParams.s
+
+# target to generate assembly for a file
+controller/commands/management/save/SaveParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.s
+.PHONY : controller/commands/management/save/SaveParams.cpp.s
+
+controller/commands/management/save/save.o: controller/commands/management/save/save.cpp.o
+
+.PHONY : controller/commands/management/save/save.o
+
+# target to build an object file
+controller/commands/management/save/save.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/management/save/save.cpp.o
+.PHONY : controller/commands/management/save/save.cpp.o
+
+controller/commands/management/save/save.i: controller/commands/management/save/save.cpp.i
+
+.PHONY : controller/commands/management/save/save.i
+
+# target to preprocess a source file
+controller/commands/management/save/save.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/management/save/save.cpp.i
+.PHONY : controller/commands/management/save/save.cpp.i
+
+controller/commands/management/save/save.s: controller/commands/management/save/save.cpp.s
+
+.PHONY : controller/commands/management/save/save.s
+
+# target to generate assembly for a file
+controller/commands/management/save/save.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/management/save/save.cpp.s
+.PHONY : controller/commands/management/save/save.cpp.s
+
+controller/commands/manipulation/Colon.o: controller/commands/manipulation/Colon.cpp.o
+
+.PHONY : controller/commands/manipulation/Colon.o
+
+# target to build an object file
+controller/commands/manipulation/Colon.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.o
+.PHONY : controller/commands/manipulation/Colon.cpp.o
+
+controller/commands/manipulation/Colon.i: controller/commands/manipulation/Colon.cpp.i
+
+.PHONY : controller/commands/manipulation/Colon.i
+
+# target to preprocess a source file
+controller/commands/manipulation/Colon.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.i
+.PHONY : controller/commands/manipulation/Colon.cpp.i
+
+controller/commands/manipulation/Colon.s: controller/commands/manipulation/Colon.cpp.s
+
+.PHONY : controller/commands/manipulation/Colon.s
+
+# target to generate assembly for a file
+controller/commands/manipulation/Colon.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.s
+.PHONY : controller/commands/manipulation/Colon.cpp.s
+
+controller/commands/manipulation/replace/Replace.o: controller/commands/manipulation/replace/Replace.cpp.o
+
+.PHONY : controller/commands/manipulation/replace/Replace.o
+
+# target to build an object file
+controller/commands/manipulation/replace/Replace.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.o
+.PHONY : controller/commands/manipulation/replace/Replace.cpp.o
+
+controller/commands/manipulation/replace/Replace.i: controller/commands/manipulation/replace/Replace.cpp.i
+
+.PHONY : controller/commands/manipulation/replace/Replace.i
+
+# target to preprocess a source file
+controller/commands/manipulation/replace/Replace.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.i
+.PHONY : controller/commands/manipulation/replace/Replace.cpp.i
+
+controller/commands/manipulation/replace/Replace.s: controller/commands/manipulation/replace/Replace.cpp.s
+
+.PHONY : controller/commands/manipulation/replace/Replace.s
+
+# target to generate assembly for a file
+controller/commands/manipulation/replace/Replace.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.s
+.PHONY : controller/commands/manipulation/replace/Replace.cpp.s
+
+controller/commands/manipulation/replace/ReplaceParams.o: controller/commands/manipulation/replace/ReplaceParams.cpp.o
+
+.PHONY : controller/commands/manipulation/replace/ReplaceParams.o
+
+# target to build an object file
+controller/commands/manipulation/replace/ReplaceParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.o
+.PHONY : controller/commands/manipulation/replace/ReplaceParams.cpp.o
+
+controller/commands/manipulation/replace/ReplaceParams.i: controller/commands/manipulation/replace/ReplaceParams.cpp.i
+
+.PHONY : controller/commands/manipulation/replace/ReplaceParams.i
+
+# target to preprocess a source file
+controller/commands/manipulation/replace/ReplaceParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.i
+.PHONY : controller/commands/manipulation/replace/ReplaceParams.cpp.i
+
+controller/commands/manipulation/replace/ReplaceParams.s: controller/commands/manipulation/replace/ReplaceParams.cpp.s
+
+.PHONY : controller/commands/manipulation/replace/ReplaceParams.s
+
+# target to generate assembly for a file
+controller/commands/manipulation/replace/ReplaceParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.s
+.PHONY : controller/commands/manipulation/replace/ReplaceParams.cpp.s
+
+controller/commands/manipulation/slice/Slice.o: controller/commands/manipulation/slice/Slice.cpp.o
+
+.PHONY : controller/commands/manipulation/slice/Slice.o
+
+# target to build an object file
+controller/commands/manipulation/slice/Slice.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.o
+.PHONY : controller/commands/manipulation/slice/Slice.cpp.o
+
+controller/commands/manipulation/slice/Slice.i: controller/commands/manipulation/slice/Slice.cpp.i
+
+.PHONY : controller/commands/manipulation/slice/Slice.i
+
+# target to preprocess a source file
+controller/commands/manipulation/slice/Slice.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.i
+.PHONY : controller/commands/manipulation/slice/Slice.cpp.i
+
+controller/commands/manipulation/slice/Slice.s: controller/commands/manipulation/slice/Slice.cpp.s
+
+.PHONY : controller/commands/manipulation/slice/Slice.s
+
+# target to generate assembly for a file
+controller/commands/manipulation/slice/Slice.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.s
+.PHONY : controller/commands/manipulation/slice/Slice.cpp.s
+
+controller/commands/manipulation/slice/SliceParams.o: controller/commands/manipulation/slice/SliceParams.cpp.o
+
+.PHONY : controller/commands/manipulation/slice/SliceParams.o
+
+# target to build an object file
+controller/commands/manipulation/slice/SliceParams.cpp.o:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.o
+.PHONY : controller/commands/manipulation/slice/SliceParams.cpp.o
+
+controller/commands/manipulation/slice/SliceParams.i: controller/commands/manipulation/slice/SliceParams.cpp.i
+
+.PHONY : controller/commands/manipulation/slice/SliceParams.i
+
+# target to preprocess a source file
+controller/commands/manipulation/slice/SliceParams.cpp.i:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.i
+.PHONY : controller/commands/manipulation/slice/SliceParams.cpp.i
+
+controller/commands/manipulation/slice/SliceParams.s: controller/commands/manipulation/slice/SliceParams.cpp.s
+
+.PHONY : controller/commands/manipulation/slice/SliceParams.s
+
+# target to generate assembly for a file
+controller/commands/manipulation/slice/SliceParams.cpp.s:
+	$(MAKE) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.s
+.PHONY : controller/commands/manipulation/slice/SliceParams.cpp.s
 
 controller/commands_container.o: controller/commands_container.cpp.o
 
@@ -726,39 +1050,75 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... code"
+	@echo "... controller/CallBack.o"
+	@echo "... controller/CallBack.i"
+	@echo "... controller/CallBack.s"
 	@echo "... controller/Controller.o"
 	@echo "... controller/Controller.i"
 	@echo "... controller/Controller.s"
-	@echo "... controller/commands/parameters/NewParams.o"
-	@echo "... controller/commands/parameters/NewParams.i"
-	@echo "... controller/commands/parameters/NewParams.s"
-	@echo "... controller/commands/usecase/Count.o"
-	@echo "... controller/commands/usecase/Count.i"
-	@echo "... controller/commands/usecase/Count.s"
-	@echo "... controller/commands/usecase/Find.o"
-	@echo "... controller/commands/usecase/Find.i"
-	@echo "... controller/commands/usecase/Find.s"
-	@echo "... controller/commands/usecase/Help.o"
-	@echo "... controller/commands/usecase/Help.i"
-	@echo "... controller/commands/usecase/Help.s"
-	@echo "... controller/commands/usecase/Len.o"
-	@echo "... controller/commands/usecase/Len.i"
-	@echo "... controller/commands/usecase/Len.s"
-	@echo "... controller/commands/usecase/Replace.o"
-	@echo "... controller/commands/usecase/Replace.i"
-	@echo "... controller/commands/usecase/Replace.s"
-	@echo "... controller/commands/usecase/Slice.o"
-	@echo "... controller/commands/usecase/Slice.i"
-	@echo "... controller/commands/usecase/Slice.s"
-	@echo "... controller/commands/usecase/load.o"
-	@echo "... controller/commands/usecase/load.i"
-	@echo "... controller/commands/usecase/load.s"
-	@echo "... controller/commands/usecase/new.o"
-	@echo "... controller/commands/usecase/new.i"
-	@echo "... controller/commands/usecase/new.s"
-	@echo "... controller/commands/usecase/save.o"
-	@echo "... controller/commands/usecase/save.i"
-	@echo "... controller/commands/usecase/save.s"
+	@echo "... controller/commands/analysis/count/Count.o"
+	@echo "... controller/commands/analysis/count/Count.i"
+	@echo "... controller/commands/analysis/count/Count.s"
+	@echo "... controller/commands/analysis/count/CountParams.o"
+	@echo "... controller/commands/analysis/count/CountParams.i"
+	@echo "... controller/commands/analysis/count/CountParams.s"
+	@echo "... controller/commands/analysis/find/Find.o"
+	@echo "... controller/commands/analysis/find/Find.i"
+	@echo "... controller/commands/analysis/find/Find.s"
+	@echo "... controller/commands/analysis/find/FindParams.o"
+	@echo "... controller/commands/analysis/find/FindParams.i"
+	@echo "... controller/commands/analysis/find/FindParams.s"
+	@echo "... controller/commands/analysis/findAll/FindAll.o"
+	@echo "... controller/commands/analysis/findAll/FindAll.i"
+	@echo "... controller/commands/analysis/findAll/FindAll.s"
+	@echo "... controller/commands/analysis/findAll/FindAllParams.o"
+	@echo "... controller/commands/analysis/findAll/FindAllParams.i"
+	@echo "... controller/commands/analysis/findAll/FindAllParams.s"
+	@echo "... controller/commands/analysis/len/Len.o"
+	@echo "... controller/commands/analysis/len/Len.i"
+	@echo "... controller/commands/analysis/len/Len.s"
+	@echo "... controller/commands/analysis/len/LenParams.o"
+	@echo "... controller/commands/analysis/len/LenParams.i"
+	@echo "... controller/commands/analysis/len/LenParams.s"
+	@echo "... controller/commands/control/help/Help.o"
+	@echo "... controller/commands/control/help/Help.i"
+	@echo "... controller/commands/control/help/Help.s"
+	@echo "... controller/commands/control/help/HelpParams.o"
+	@echo "... controller/commands/control/help/HelpParams.i"
+	@echo "... controller/commands/control/help/HelpParams.s"
+	@echo "... controller/commands/creation/load/LoadParams.o"
+	@echo "... controller/commands/creation/load/LoadParams.i"
+	@echo "... controller/commands/creation/load/LoadParams.s"
+	@echo "... controller/commands/creation/load/load.o"
+	@echo "... controller/commands/creation/load/load.i"
+	@echo "... controller/commands/creation/load/load.s"
+	@echo "... controller/commands/creation/new/NewParams.o"
+	@echo "... controller/commands/creation/new/NewParams.i"
+	@echo "... controller/commands/creation/new/NewParams.s"
+	@echo "... controller/commands/creation/new/new.o"
+	@echo "... controller/commands/creation/new/new.i"
+	@echo "... controller/commands/creation/new/new.s"
+	@echo "... controller/commands/management/save/SaveParams.o"
+	@echo "... controller/commands/management/save/SaveParams.i"
+	@echo "... controller/commands/management/save/SaveParams.s"
+	@echo "... controller/commands/management/save/save.o"
+	@echo "... controller/commands/management/save/save.i"
+	@echo "... controller/commands/management/save/save.s"
+	@echo "... controller/commands/manipulation/Colon.o"
+	@echo "... controller/commands/manipulation/Colon.i"
+	@echo "... controller/commands/manipulation/Colon.s"
+	@echo "... controller/commands/manipulation/replace/Replace.o"
+	@echo "... controller/commands/manipulation/replace/Replace.i"
+	@echo "... controller/commands/manipulation/replace/Replace.s"
+	@echo "... controller/commands/manipulation/replace/ReplaceParams.o"
+	@echo "... controller/commands/manipulation/replace/ReplaceParams.i"
+	@echo "... controller/commands/manipulation/replace/ReplaceParams.s"
+	@echo "... controller/commands/manipulation/slice/Slice.o"
+	@echo "... controller/commands/manipulation/slice/Slice.i"
+	@echo "... controller/commands/manipulation/slice/Slice.s"
+	@echo "... controller/commands/manipulation/slice/SliceParams.o"
+	@echo "... controller/commands/manipulation/slice/SliceParams.i"
+	@echo "... controller/commands/manipulation/slice/SliceParams.s"
 	@echo "... controller/commands_container.o"
 	@echo "... controller/commands_container.i"
 	@echo "... controller/commands_container.s"

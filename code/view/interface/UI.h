@@ -8,10 +8,12 @@
 
 #include <string>
 
+#include "../../controller/CallBack.h"
+
 class UI
 {
 public:
-    virtual void run() = 0;
+    virtual void run(const CallBack&) = 0;
     virtual std::string input() = 0;
     virtual void output(std::string) = 0;
 

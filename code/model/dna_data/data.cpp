@@ -36,10 +36,15 @@ std::string Data::getNameDnaByArgs(std::vector<std::string> args)
 
     else
     {
-        std::stringstream str;
-        str << "def_seq_" << getId();
-        return getNotExistName(str.str());
+        return getDefName();
     }
+}
+
+std::string Data::getDefName()
+{
+    std::stringstream str;
+    str << "def_seq_" << getId();
+    return getNotExistName(str.str());
 }
 
 bool Data::isSeqNameExist(std::string name)

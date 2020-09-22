@@ -19,6 +19,7 @@ public:
     DnaMetaData* getByName(std::string name);
     DnaMetaData* getById(size_t id);
     std::string getNameDnaByArgs(std::vector<std::string>);
+    std::string getDefName();
     DnaMetaData* getMetaData(std::string);
 
     bool isSeqNameExist(std::string);

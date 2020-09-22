@@ -6,6 +6,7 @@ CMakeFiles/code.dir/controller/Controller.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/IParameters.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
@@ -15,57 +16,39 @@ CMakeFiles/code.dir/controller/Controller.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
- /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.h
- /home/shoshi/Desktop/bootcamp/dna project/code/view/parser.h
-CMakeFiles/code.dir/controller/commands/icommand.cpp.o
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.cpp
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/UI.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/IParameters.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.cpp
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
+CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.cpp
+CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.cpp
 CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o
- /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.cpp
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
+CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Len.cpp
+CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Replace.cpp
 CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o
- /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.cpp
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/SliceDecorator.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
 CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o
- /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.cpp
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaReader.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
 CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/IParameters.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
@@ -77,23 +60,17 @@ CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
 CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o
- /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.cpp
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h
- /home/shoshi/Desktop/bootcamp/dna project/code/controller/read_write/DnaWriter.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
- /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
 CMakeFiles/code.dir/controller/commands_container.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/IParameters.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Len.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Replace.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.h
@@ -134,8 +111,8 @@ CMakeFiles/code.dir/main.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/UI.h
  /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/cli.h
- /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.h
 CMakeFiles/code.dir/model/dna/DnaSequence.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidDna.h
@@ -143,6 +120,12 @@ CMakeFiles/code.dir/model/dna/DnaSequence.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
+CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/ReplaceDecorator.cpp
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/ReplaceDecorator.h
 CMakeFiles/code.dir/model/dna/dnaDecorators/SliceDecorator.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
@@ -168,15 +151,26 @@ CMakeFiles/code.dir/model/dna_data/meta_data.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
 CMakeFiles/code.dir/view/interface/cli.cpp.o
+ /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/IParameters.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/DnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/IDnaSequence.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna/Nucleotide.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/model/dna_data/meta_data.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/UI.h
  /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/cli.cpp
  /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/cli.h
- /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.h
-CMakeFiles/code.dir/view/interface/input_output.cpp.o
- /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.cpp
- /home/shoshi/Desktop/bootcamp/dna project/code/view/interface/input_output.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/view/parser.h
 CMakeFiles/code.dir/view/parser.cpp.o
  /home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h
+ /home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/IParameters.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/DnaException.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/InvalidCommand.h
  /home/shoshi/Desktop/bootcamp/dna project/code/controller/errors/NotFound.h

@@ -86,7 +86,7 @@ std::basic_ofstream<char> fileFromDna(const DnaSequence& d, const char* fileName
 
 DnaSequence DnaSequence::pair() const
 {
-    std::string s = "" ;
+    std::string s = "";
     const Nucleotide* first = getDna();
     size_t l = length();
     for (size_t i = 0; i < l; ++i)
@@ -122,9 +122,9 @@ size_t DnaSequence::find(const DnaSequence& sub, size_t start) const
 
     for (size_t i = start; i < lSeq - lSub + 1; ++i)
     {
-        for (; j < lSub && i + j < m_length; ++j)
+        for (; j < lSub && i + j < length(); ++j)
         {
-            if(m_dna[i + j] != sub[j])
+            if(operator[](i + j) != sub[j])
                 break;
         }
 

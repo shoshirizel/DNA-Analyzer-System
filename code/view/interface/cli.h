@@ -13,7 +13,7 @@
 class Cli : public UI
 {
 public:
-    /*virtual*/ void run();
+    /*virtual*/ void run(const CallBack&);
     /*virtual*/ std::string input();
     /*virtual */ void output(std::string);
 

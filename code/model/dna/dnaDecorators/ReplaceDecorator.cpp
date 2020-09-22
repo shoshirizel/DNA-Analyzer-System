@@ -7,7 +7,7 @@
 ReplaceDecorator::ReplaceDecorator(SharedPtr<IDnaSequence> dna, size_t index, Nucleotide n)
                                             : m_dna(dna), m_index(index), m_nuc(n){}
 
-Nucleotide & ReplaceDecorator::operator[](size_t index)
+Nucleotide& ReplaceDecorator::operator[](size_t index)
 {
     if (index == m_index)
     {
@@ -17,7 +17,7 @@ Nucleotide & ReplaceDecorator::operator[](size_t index)
     return (*m_dna)[index];
 }
 
-const Nucleotide & ReplaceDecorator::operator[](size_t index) const
+const Nucleotide& ReplaceDecorator::operator[](size_t index) const
 {
     if (index == m_index)
     {

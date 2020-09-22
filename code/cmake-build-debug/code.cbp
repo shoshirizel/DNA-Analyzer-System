@@ -107,76 +107,151 @@
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/SharedPtr.h">
 			<Option target="code"/>
 		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/CallBack.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/CallBack.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.cpp">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/Controller.h">
 			<Option target="code"/>
 		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/allCommands.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/IParameters.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/Count.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/Count.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/CountParams.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/CountParams.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/Find.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/Find.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/FindParams.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/FindParams.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAll.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAll.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAllParams.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAllParams.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/Len.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/Len.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/LenParams.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/LenParams.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/Help.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/Help.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/HelpParams.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/HelpParams.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/LoadParams.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/LoadParams.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/load.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/load.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/NewParams.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/NewParams.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/new.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/new.h">
+			<Option target="code"/>
+		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/icommand.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/IParameters.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/SaveParams.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/SaveParams.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/save.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/save.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/Colon.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/Colon.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/Replace.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/Replace.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/ReplaceParams.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Len.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/ReplaceParams.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Len.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/Slice.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Replace.cpp">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/Slice.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Replace.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/SliceParams.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.cpp">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.h">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.cpp">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.h">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.cpp">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.h">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.cpp">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.h">
+		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/SliceParams.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands_container.cpp">

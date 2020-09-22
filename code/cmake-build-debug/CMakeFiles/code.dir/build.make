@@ -57,57 +57,57 @@ include CMakeFiles/code.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/code.dir/flags.make
 
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../controller/commands/usecase/Help.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.cpp"
+CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.o: ../controller/commands/control/help/Help.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/Help.cpp"
 
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.cpp" > CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.i
+CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/Help.cpp" > CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.i
 
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Help.cpp" -o CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.s
+CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/Help.cpp" -o CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.s
 
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../controller/commands/usecase/load.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.cpp"
+CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.o: ../controller/commands/creation/load/load.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/load.cpp"
 
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/usecase/load.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.cpp" > CMakeFiles/code.dir/controller/commands/usecase/load.cpp.i
+CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/load.cpp" > CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.i
 
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/usecase/load.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/load.cpp" -o CMakeFiles/code.dir/controller/commands/usecase/load.cpp.s
+CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/load.cpp" -o CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.s
 
-CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../controller/commands/usecase/new.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.cpp"
+CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.o: ../controller/commands/creation/new/new.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/new.cpp"
 
-CMakeFiles/code.dir/controller/commands/usecase/new.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/usecase/new.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.cpp" > CMakeFiles/code.dir/controller/commands/usecase/new.cpp.i
+CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/new.cpp" > CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.i
 
-CMakeFiles/code.dir/controller/commands/usecase/new.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/usecase/new.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/new.cpp" -o CMakeFiles/code.dir/controller/commands/usecase/new.cpp.s
+CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/new.cpp" -o CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.s
 
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../controller/commands/usecase/save.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.cpp"
+CMakeFiles/code.dir/controller/commands/management/save/save.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/management/save/save.cpp.o: ../controller/commands/management/save/save.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/code.dir/controller/commands/management/save/save.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/management/save/save.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/save.cpp"
 
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/usecase/save.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.cpp" > CMakeFiles/code.dir/controller/commands/usecase/save.cpp.i
+CMakeFiles/code.dir/controller/commands/management/save/save.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/management/save/save.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/save.cpp" > CMakeFiles/code.dir/controller/commands/management/save/save.cpp.i
 
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/usecase/save.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/save.cpp" -o CMakeFiles/code.dir/controller/commands/usecase/save.cpp.s
+CMakeFiles/code.dir/controller/commands/management/save/save.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/management/save/save.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/save.cpp" -o CMakeFiles/code.dir/controller/commands/management/save/save.cpp.s
 
 CMakeFiles/code.dir/controller/read_write/DnaReader.cpp.o: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/controller/read_write/DnaReader.cpp.o: ../controller/read_write/DnaReader.cpp
@@ -252,31 +252,31 @@ CMakeFiles/code.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/main.cpp" -o CMakeFiles/code.dir/main.cpp.s
 
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../controller/commands/usecase/Slice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.cpp"
+CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.o: ../controller/commands/manipulation/slice/Slice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/Slice.cpp"
 
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.cpp" > CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.i
+CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/Slice.cpp" > CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.i
 
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Slice.cpp" -o CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.s
+CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/Slice.cpp" -o CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.s
 
-CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o: ../controller/commands/usecase/Len.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Len.cpp"
+CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.o: ../controller/commands/analysis/len/Len.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/Len.cpp"
 
-CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Len.cpp" > CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.i
+CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/Len.cpp" > CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.i
 
-CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Len.cpp" -o CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.s
+CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/Len.cpp" -o CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.s
 
 CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o: ../model/dna/dnaDecorators/ReplaceDecorator.cpp
@@ -291,64 +291,220 @@ CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/model/dna/dnaDecorators/ReplaceDecorator.cpp" -o CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.s
 
-CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o: ../controller/commands/usecase/Replace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Replace.cpp"
+CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.o: ../controller/commands/manipulation/replace/Replace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/Replace.cpp"
 
-CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Replace.cpp" > CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.i
+CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/Replace.cpp" > CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.i
 
-CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Replace.cpp" -o CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.s
+CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/Replace.cpp" -o CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.s
 
-CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o: ../controller/commands/usecase/Find.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.cpp"
+CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.o: ../controller/commands/analysis/find/Find.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/Find.cpp"
 
-CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.cpp" > CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.i
+CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/Find.cpp" > CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.i
 
-CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Find.cpp" -o CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.s
+CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/Find.cpp" -o CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.s
 
-CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o: ../controller/commands/usecase/Count.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.cpp"
+CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.o: ../controller/commands/analysis/count/Count.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/Count.cpp"
 
-CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.cpp" > CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.i
+CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/Count.cpp" > CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.i
 
-CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/usecase/Count.cpp" -o CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.s
+CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/Count.cpp" -o CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.s
 
-CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../controller/commands/parameters/NewParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.cpp"
+CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.o: ../controller/commands/creation/new/NewParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/NewParams.cpp"
 
-CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.cpp" > CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.i
+CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/NewParams.cpp" > CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.i
 
-CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/parameters/NewParams.cpp" -o CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.s
+CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/new/NewParams.cpp" -o CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.s
+
+CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.o: ../controller/commands/creation/load/LoadParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/LoadParams.cpp"
+
+CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/LoadParams.cpp" > CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.i
+
+CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/creation/load/LoadParams.cpp" -o CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.s
+
+CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.o: ../controller/commands/management/save/SaveParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/SaveParams.cpp"
+
+CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/SaveParams.cpp" > CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.i
+
+CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/management/save/SaveParams.cpp" -o CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.s
+
+CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.o: ../controller/commands/manipulation/slice/SliceParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/SliceParams.cpp"
+
+CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/SliceParams.cpp" > CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.i
+
+CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/slice/SliceParams.cpp" -o CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.s
+
+CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.o: ../controller/commands/control/help/HelpParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/HelpParams.cpp"
+
+CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/HelpParams.cpp" > CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.i
+
+CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/control/help/HelpParams.cpp" -o CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.s
+
+CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.o: ../controller/commands/manipulation/Colon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/Colon.cpp"
+
+CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/Colon.cpp" > CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.i
+
+CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/Colon.cpp" -o CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.s
+
+CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.o: ../controller/commands/analysis/count/CountParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/CountParams.cpp"
+
+CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/CountParams.cpp" > CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.i
+
+CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/count/CountParams.cpp" -o CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.s
+
+CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.o: ../controller/commands/analysis/len/LenParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/LenParams.cpp"
+
+CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/LenParams.cpp" > CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.i
+
+CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/len/LenParams.cpp" -o CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.s
+
+CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.o: ../controller/commands/analysis/find/FindParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/FindParams.cpp"
+
+CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/FindParams.cpp" > CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.i
+
+CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/find/FindParams.cpp" -o CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.s
+
+CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.o: ../controller/commands/analysis/findAll/FindAllParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAllParams.cpp"
+
+CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAllParams.cpp" > CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.i
+
+CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAllParams.cpp" -o CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.s
+
+CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.o: ../controller/commands/analysis/findAll/FindAll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAll.cpp"
+
+CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAll.cpp" > CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.i
+
+CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/analysis/findAll/FindAll.cpp" -o CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.s
+
+CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.o: ../controller/commands/manipulation/replace/ReplaceParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/ReplaceParams.cpp"
+
+CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/ReplaceParams.cpp" > CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.i
+
+CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/commands/manipulation/replace/ReplaceParams.cpp" -o CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.s
+
+CMakeFiles/code.dir/controller/CallBack.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/controller/CallBack.cpp.o: ../controller/CallBack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/code.dir/controller/CallBack.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/code.dir/controller/CallBack.cpp.o -c "/home/shoshi/Desktop/bootcamp/dna project/code/controller/CallBack.cpp"
+
+CMakeFiles/code.dir/controller/CallBack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/controller/CallBack.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/shoshi/Desktop/bootcamp/dna project/code/controller/CallBack.cpp" > CMakeFiles/code.dir/controller/CallBack.cpp.i
+
+CMakeFiles/code.dir/controller/CallBack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/controller/CallBack.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/shoshi/Desktop/bootcamp/dna project/code/controller/CallBack.cpp" -o CMakeFiles/code.dir/controller/CallBack.cpp.s
 
 # Object files for target code
 code_OBJECTS = \
-"CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o" \
-"CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o" \
-"CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o" \
-"CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/management/save/save.cpp.o" \
 "CMakeFiles/code.dir/controller/read_write/DnaReader.cpp.o" \
 "CMakeFiles/code.dir/controller/read_write/DnaWriter.cpp.o" \
 "CMakeFiles/code.dir/controller/commands_container.cpp.o" \
@@ -360,21 +516,33 @@ code_OBJECTS = \
 "CMakeFiles/code.dir/view/interface/cli.cpp.o" \
 "CMakeFiles/code.dir/view/parser.cpp.o" \
 "CMakeFiles/code.dir/main.cpp.o" \
-"CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o" \
-"CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.o" \
 "CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o" \
-"CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o" \
-"CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o" \
-"CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o" \
-"CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o"
+"CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.o" \
+"CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.o" \
+"CMakeFiles/code.dir/controller/CallBack.cpp.o"
 
 # External object files for target code
 code_EXTERNAL_OBJECTS =
 
-code: CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o
-code: CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o
-code: CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o
-code: CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o
+code: CMakeFiles/code.dir/controller/commands/control/help/Help.cpp.o
+code: CMakeFiles/code.dir/controller/commands/creation/load/load.cpp.o
+code: CMakeFiles/code.dir/controller/commands/creation/new/new.cpp.o
+code: CMakeFiles/code.dir/controller/commands/management/save/save.cpp.o
 code: CMakeFiles/code.dir/controller/read_write/DnaReader.cpp.o
 code: CMakeFiles/code.dir/controller/read_write/DnaWriter.cpp.o
 code: CMakeFiles/code.dir/controller/commands_container.cpp.o
@@ -386,16 +554,28 @@ code: CMakeFiles/code.dir/model/dna_data/meta_data.cpp.o
 code: CMakeFiles/code.dir/view/interface/cli.cpp.o
 code: CMakeFiles/code.dir/view/parser.cpp.o
 code: CMakeFiles/code.dir/main.cpp.o
-code: CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o
-code: CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o
+code: CMakeFiles/code.dir/controller/commands/manipulation/slice/Slice.cpp.o
+code: CMakeFiles/code.dir/controller/commands/analysis/len/Len.cpp.o
 code: CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o
-code: CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o
-code: CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o
-code: CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o
-code: CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/manipulation/replace/Replace.cpp.o
+code: CMakeFiles/code.dir/controller/commands/analysis/find/Find.cpp.o
+code: CMakeFiles/code.dir/controller/commands/analysis/count/Count.cpp.o
+code: CMakeFiles/code.dir/controller/commands/creation/new/NewParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/creation/load/LoadParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/management/save/SaveParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/manipulation/slice/SliceParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/control/help/HelpParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/manipulation/Colon.cpp.o
+code: CMakeFiles/code.dir/controller/commands/analysis/count/CountParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/analysis/len/LenParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/analysis/find/FindParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAllParams.cpp.o
+code: CMakeFiles/code.dir/controller/commands/analysis/findAll/FindAll.cpp.o
+code: CMakeFiles/code.dir/controller/commands/manipulation/replace/ReplaceParams.cpp.o
+code: CMakeFiles/code.dir/controller/CallBack.cpp.o
 code: CMakeFiles/code.dir/build.make
 code: CMakeFiles/code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

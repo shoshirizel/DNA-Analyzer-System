@@ -5,6 +5,7 @@ CMakeFiles/code.dir/controller/Controller.cpp.o: ../SharedPtr.h
 CMakeFiles/code.dir/controller/Controller.cpp.o: ../controller/Controller.cpp
 CMakeFiles/code.dir/controller/Controller.cpp.o: ../controller/Controller.h
 CMakeFiles/code.dir/controller/Controller.cpp.o: ../controller/commands/icommand.h
+CMakeFiles/code.dir/controller/Controller.cpp.o: ../controller/commands/parameters/IParameters.h
 CMakeFiles/code.dir/controller/Controller.cpp.o: ../controller/commands_container.h
 CMakeFiles/code.dir/controller/Controller.cpp.o: ../controller/errors/DnaException.h
 CMakeFiles/code.dir/controller/Controller.cpp.o: ../controller/errors/InvalidCommand.h
@@ -14,57 +15,39 @@ CMakeFiles/code.dir/controller/Controller.cpp.o: ../model/dna/IDnaSequence.h
 CMakeFiles/code.dir/controller/Controller.cpp.o: ../model/dna/Nucleotide.h
 CMakeFiles/code.dir/controller/Controller.cpp.o: ../model/dna_data/data.h
 CMakeFiles/code.dir/controller/Controller.cpp.o: ../model/dna_data/meta_data.h
-CMakeFiles/code.dir/controller/Controller.cpp.o: ../view/interface/input_output.h
-CMakeFiles/code.dir/controller/Controller.cpp.o: ../view/parser.h
+CMakeFiles/code.dir/controller/Controller.cpp.o: ../view/interface/UI.h
 
-CMakeFiles/code.dir/controller/commands/icommand.cpp.o: ../controller/commands/icommand.cpp
-CMakeFiles/code.dir/controller/commands/icommand.cpp.o: ../controller/commands/icommand.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../SharedPtr.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../controller/commands/parameters/IParameters.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../controller/commands/parameters/NewParams.cpp
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../controller/commands/parameters/NewParams.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../controller/errors/DnaException.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../controller/errors/InvalidCommand.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../controller/errors/NotFound.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../model/dna/DnaSequence.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../model/dna/IDnaSequence.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../model/dna/Nucleotide.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../model/dna_data/data.h
+CMakeFiles/code.dir/controller/commands/parameters/NewParams.cpp.o: ../model/dna_data/meta_data.h
 
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../SharedPtr.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../controller/commands/icommand.h
+CMakeFiles/code.dir/controller/commands/usecase/Count.cpp.o: ../controller/commands/usecase/Count.cpp
+
+CMakeFiles/code.dir/controller/commands/usecase/Find.cpp.o: ../controller/commands/usecase/Find.cpp
+
 CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../controller/commands/usecase/Help.cpp
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../controller/commands/usecase/Help.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../controller/commands_container.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../controller/errors/DnaException.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../controller/errors/InvalidCommand.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../controller/errors/NotFound.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../model/dna/DnaSequence.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../model/dna/IDnaSequence.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../model/dna/Nucleotide.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../model/dna_data/data.h
-CMakeFiles/code.dir/controller/commands/usecase/Help.cpp.o: ../model/dna_data/meta_data.h
 
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../SharedPtr.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../controller/commands/icommand.h
+CMakeFiles/code.dir/controller/commands/usecase/Len.cpp.o: ../controller/commands/usecase/Len.cpp
+
+CMakeFiles/code.dir/controller/commands/usecase/Replace.cpp.o: ../controller/commands/usecase/Replace.cpp
+
 CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../controller/commands/usecase/Slice.cpp
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../controller/commands/usecase/Slice.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../controller/errors/DnaException.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../controller/errors/InvalidCommand.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../controller/errors/NotFound.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../model/dna/DnaSequence.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../model/dna/IDnaSequence.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../model/dna/Nucleotide.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../model/dna/dnaDecorators/SliceDecorator.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../model/dna_data/data.h
-CMakeFiles/code.dir/controller/commands/usecase/Slice.cpp.o: ../model/dna_data/meta_data.h
 
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../SharedPtr.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../controller/commands/icommand.h
 CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../controller/commands/usecase/load.cpp
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../controller/commands/usecase/load.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../controller/commands_container.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../controller/errors/DnaException.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../controller/errors/InvalidCommand.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../controller/errors/NotFound.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../controller/read_write/DnaReader.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../model/dna/DnaSequence.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../model/dna/IDnaSequence.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../model/dna/Nucleotide.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../model/dna_data/data.h
-CMakeFiles/code.dir/controller/commands/usecase/load.cpp.o: ../model/dna_data/meta_data.h
 
 CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../SharedPtr.h
 CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../controller/commands/icommand.h
+CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../controller/commands/parameters/IParameters.h
+CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../controller/commands/parameters/NewParams.h
 CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../controller/commands/usecase/new.cpp
 CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../controller/commands/usecase/new.h
 CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../controller/errors/DnaException.h
@@ -76,23 +59,17 @@ CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../model/dna/Nucleoti
 CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../model/dna_data/data.h
 CMakeFiles/code.dir/controller/commands/usecase/new.cpp.o: ../model/dna_data/meta_data.h
 
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../SharedPtr.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../controller/commands/icommand.h
 CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../controller/commands/usecase/save.cpp
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../controller/commands/usecase/save.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../controller/errors/DnaException.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../controller/errors/InvalidCommand.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../controller/errors/NotFound.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../controller/read_write/DnaWriter.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../model/dna/DnaSequence.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../model/dna/IDnaSequence.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../model/dna/Nucleotide.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../model/dna_data/data.h
-CMakeFiles/code.dir/controller/commands/usecase/save.cpp.o: ../model/dna_data/meta_data.h
 
 CMakeFiles/code.dir/controller/commands_container.cpp.o: ../SharedPtr.h
 CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/icommand.h
+CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/parameters/IParameters.h
+CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/parameters/NewParams.h
+CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/usecase/Count.h
+CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/usecase/Find.h
 CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/usecase/Help.h
+CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/usecase/Len.h
+CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/usecase/Replace.h
 CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/usecase/Slice.h
 CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/usecase/load.h
 CMakeFiles/code.dir/controller/commands_container.cpp.o: ../controller/commands/usecase/new.h
@@ -133,8 +110,8 @@ CMakeFiles/code.dir/main.cpp.o: ../model/dna/IDnaSequence.h
 CMakeFiles/code.dir/main.cpp.o: ../model/dna/Nucleotide.h
 CMakeFiles/code.dir/main.cpp.o: ../model/dna_data/data.h
 CMakeFiles/code.dir/main.cpp.o: ../model/dna_data/meta_data.h
+CMakeFiles/code.dir/main.cpp.o: ../view/interface/UI.h
 CMakeFiles/code.dir/main.cpp.o: ../view/interface/cli.h
-CMakeFiles/code.dir/main.cpp.o: ../view/interface/input_output.h
 
 CMakeFiles/code.dir/model/dna/DnaSequence.cpp.o: ../controller/errors/DnaException.h
 CMakeFiles/code.dir/model/dna/DnaSequence.cpp.o: ../controller/errors/InvalidDna.h
@@ -142,6 +119,12 @@ CMakeFiles/code.dir/model/dna/DnaSequence.cpp.o: ../model/dna/DnaSequence.cpp
 CMakeFiles/code.dir/model/dna/DnaSequence.cpp.o: ../model/dna/DnaSequence.h
 CMakeFiles/code.dir/model/dna/DnaSequence.cpp.o: ../model/dna/IDnaSequence.h
 CMakeFiles/code.dir/model/dna/DnaSequence.cpp.o: ../model/dna/Nucleotide.h
+
+CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o: ../SharedPtr.h
+CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o: ../model/dna/IDnaSequence.h
+CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o: ../model/dna/Nucleotide.h
+CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o: ../model/dna/dnaDecorators/ReplaceDecorator.cpp
+CMakeFiles/code.dir/model/dna/dnaDecorators/ReplaceDecorator.cpp.o: ../model/dna/dnaDecorators/ReplaceDecorator.h
 
 CMakeFiles/code.dir/model/dna/dnaDecorators/SliceDecorator.cpp.o: ../SharedPtr.h
 CMakeFiles/code.dir/model/dna/dnaDecorators/SliceDecorator.cpp.o: ../model/dna/IDnaSequence.h
@@ -167,15 +150,26 @@ CMakeFiles/code.dir/model/dna_data/meta_data.cpp.o: ../model/dna/Nucleotide.h
 CMakeFiles/code.dir/model/dna_data/meta_data.cpp.o: ../model/dna_data/meta_data.cpp
 CMakeFiles/code.dir/model/dna_data/meta_data.cpp.o: ../model/dna_data/meta_data.h
 
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../SharedPtr.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../controller/commands/icommand.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../controller/commands/parameters/IParameters.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../controller/commands_container.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../controller/errors/DnaException.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../controller/errors/InvalidCommand.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../controller/errors/NotFound.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../model/dna/DnaSequence.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../model/dna/IDnaSequence.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../model/dna/Nucleotide.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../model/dna_data/data.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../model/dna_data/meta_data.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../view/interface/UI.h
 CMakeFiles/code.dir/view/interface/cli.cpp.o: ../view/interface/cli.cpp
 CMakeFiles/code.dir/view/interface/cli.cpp.o: ../view/interface/cli.h
-CMakeFiles/code.dir/view/interface/cli.cpp.o: ../view/interface/input_output.h
-
-CMakeFiles/code.dir/view/interface/input_output.cpp.o: ../view/interface/input_output.cpp
-CMakeFiles/code.dir/view/interface/input_output.cpp.o: ../view/interface/input_output.h
+CMakeFiles/code.dir/view/interface/cli.cpp.o: ../view/parser.h
 
 CMakeFiles/code.dir/view/parser.cpp.o: ../SharedPtr.h
 CMakeFiles/code.dir/view/parser.cpp.o: ../controller/commands/icommand.h
+CMakeFiles/code.dir/view/parser.cpp.o: ../controller/commands/parameters/IParameters.h
 CMakeFiles/code.dir/view/parser.cpp.o: ../controller/errors/DnaException.h
 CMakeFiles/code.dir/view/parser.cpp.o: ../controller/errors/InvalidCommand.h
 CMakeFiles/code.dir/view/parser.cpp.o: ../controller/errors/NotFound.h
