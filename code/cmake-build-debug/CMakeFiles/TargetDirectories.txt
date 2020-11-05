@@ -1,3 +1,0 @@
-/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/shoshi/Desktop/bootcamp/dna project/code/cmake-build-debug/CMakeFiles/code.dir
